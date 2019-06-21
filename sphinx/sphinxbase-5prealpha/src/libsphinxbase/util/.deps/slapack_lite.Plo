@@ -1,0 +1,7 @@
+slapack_lite.lo: slapack_lite.c \
+ /opt/riscv/sysroot/usr/include/stdc-predef.h \
+ ../../../include/sphinxbase/f2c.h
+
+/opt/riscv/sysroot/usr/include/stdc-predef.h:
+
+../../../include/sphinxbase/f2c.h:

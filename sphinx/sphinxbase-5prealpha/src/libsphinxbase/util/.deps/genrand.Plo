@@ -1,0 +1,69 @@
+genrand.lo: genrand.c /opt/riscv/sysroot/usr/include/stdc-predef.h \
+ /opt/riscv/sysroot/usr/include/stdio.h \
+ /opt/riscv/sysroot/usr/include/bits/libc-header-start.h \
+ /opt/riscv/sysroot/usr/include/features.h \
+ /opt/riscv/sysroot/usr/include/sys/cdefs.h \
+ /opt/riscv/sysroot/usr/include/bits/wordsize.h \
+ /opt/riscv/sysroot/usr/include/bits/long-double.h \
+ /opt/riscv/sysroot/usr/include/gnu/stubs.h \
+ /opt/riscv/sysroot/usr/include/gnu/stubs-lp64d.h \
+ /opt/riscv/lib/gcc/riscv64-unknown-linux-gnu/7.2.0/include/stddef.h \
+ /opt/riscv/sysroot/usr/include/bits/types.h \
+ /opt/riscv/sysroot/usr/include/bits/typesizes.h \
+ /opt/riscv/sysroot/usr/include/bits/types/__FILE.h \
+ /opt/riscv/sysroot/usr/include/bits/types/FILE.h \
+ /opt/riscv/sysroot/usr/include/libio.h \
+ /opt/riscv/sysroot/usr/include/_G_config.h \
+ /opt/riscv/sysroot/usr/include/bits/types/__mbstate_t.h \
+ /opt/riscv/lib/gcc/riscv64-unknown-linux-gnu/7.2.0/include/stdarg.h \
+ /opt/riscv/sysroot/usr/include/bits/stdio_lim.h \
+ /opt/riscv/sysroot/usr/include/bits/sys_errlist.h \
+ /opt/riscv/sysroot/usr/include/bits/stdio.h \
+ ../../../include/sphinxbase/genrand.h \
+ ../../../include/sphinxbase/sphinxbase_export.h
+
+/opt/riscv/sysroot/usr/include/stdc-predef.h:
+
+/opt/riscv/sysroot/usr/include/stdio.h:
+
+/opt/riscv/sysroot/usr/include/bits/libc-header-start.h:
+
+/opt/riscv/sysroot/usr/include/features.h:
+
+/opt/riscv/sysroot/usr/include/sys/cdefs.h:
+
+/opt/riscv/sysroot/usr/include/bits/wordsize.h:
+
+/opt/riscv/sysroot/usr/include/bits/long-double.h:
+
+/opt/riscv/sysroot/usr/include/gnu/stubs.h:
+
+/opt/riscv/sysroot/usr/include/gnu/stubs-lp64d.h:
+
+/opt/riscv/lib/gcc/riscv64-unknown-linux-gnu/7.2.0/include/stddef.h:
+
+/opt/riscv/sysroot/usr/include/bits/types.h:
+
+/opt/riscv/sysroot/usr/include/bits/typesizes.h:
+
+/opt/riscv/sysroot/usr/include/bits/types/__FILE.h:
+
+/opt/riscv/sysroot/usr/include/bits/types/FILE.h:
+
+/opt/riscv/sysroot/usr/include/libio.h:
+
+/opt/riscv/sysroot/usr/include/_G_config.h:
+
+/opt/riscv/sysroot/usr/include/bits/types/__mbstate_t.h:
+
+/opt/riscv/lib/gcc/riscv64-unknown-linux-gnu/7.2.0/include/stdarg.h:
+
+/opt/riscv/sysroot/usr/include/bits/stdio_lim.h:
+
+/opt/riscv/sysroot/usr/include/bits/sys_errlist.h:
+
+/opt/riscv/sysroot/usr/include/bits/stdio.h:
+
+../../../include/sphinxbase/genrand.h:
+
+../../../include/sphinxbase/sphinxbase_export.h:

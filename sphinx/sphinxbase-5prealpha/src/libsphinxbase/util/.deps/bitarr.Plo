@@ -1,0 +1,89 @@
+bitarr.lo: bitarr.c /opt/riscv/sysroot/usr/include/stdc-predef.h \
+ /opt/riscv/sysroot/usr/include/endian.h \
+ /opt/riscv/sysroot/usr/include/features.h \
+ /opt/riscv/sysroot/usr/include/sys/cdefs.h \
+ /opt/riscv/sysroot/usr/include/bits/wordsize.h \
+ /opt/riscv/sysroot/usr/include/bits/long-double.h \
+ /opt/riscv/sysroot/usr/include/gnu/stubs.h \
+ /opt/riscv/sysroot/usr/include/gnu/stubs-lp64d.h \
+ /opt/riscv/sysroot/usr/include/bits/endian.h \
+ /opt/riscv/sysroot/usr/include/bits/byteswap.h \
+ /opt/riscv/sysroot/usr/include/bits/types.h \
+ /opt/riscv/sysroot/usr/include/bits/typesizes.h \
+ /opt/riscv/sysroot/usr/include/bits/byteswap-16.h \
+ /opt/riscv/sysroot/usr/include/bits/uintn-identity.h \
+ ../../../include/sphinxbase/bitarr.h \
+ /opt/riscv/sysroot/usr/include/assert.h \
+ /opt/riscv/sysroot/usr/include/string.h \
+ /opt/riscv/sysroot/usr/include/bits/libc-header-start.h \
+ /opt/riscv/lib/gcc/riscv64-unknown-linux-gnu/7.2.0/include/stddef.h \
+ /opt/riscv/sysroot/usr/include/bits/types/locale_t.h \
+ /opt/riscv/sysroot/usr/include/bits/types/__locale_t.h \
+ /opt/riscv/sysroot/usr/include/strings.h \
+ /opt/riscv/lib/gcc/riscv64-unknown-linux-gnu/7.2.0/include/stdint.h \
+ /opt/riscv/sysroot/usr/include/stdint.h \
+ /opt/riscv/sysroot/usr/include/bits/wchar.h \
+ /opt/riscv/sysroot/usr/include/bits/stdint-intn.h \
+ /opt/riscv/sysroot/usr/include/bits/stdint-uintn.h \
+ ../../../include/sphinxbase/prim_type.h ../../../include/sphinx_config.h \
+ ../../../include/sphinxbase/sphinxbase_export.h
+
+/opt/riscv/sysroot/usr/include/stdc-predef.h:
+
+/opt/riscv/sysroot/usr/include/endian.h:
+
+/opt/riscv/sysroot/usr/include/features.h:
+
+/opt/riscv/sysroot/usr/include/sys/cdefs.h:
+
+/opt/riscv/sysroot/usr/include/bits/wordsize.h:
+
+/opt/riscv/sysroot/usr/include/bits/long-double.h:
+
+/opt/riscv/sysroot/usr/include/gnu/stubs.h:
+
+/opt/riscv/sysroot/usr/include/gnu/stubs-lp64d.h:
+
+/opt/riscv/sysroot/usr/include/bits/endian.h:
+
+/opt/riscv/sysroot/usr/include/bits/byteswap.h:
+
+/opt/riscv/sysroot/usr/include/bits/types.h:
+
+/opt/riscv/sysroot/usr/include/bits/typesizes.h:
+
+/opt/riscv/sysroot/usr/include/bits/byteswap-16.h:
+
+/opt/riscv/sysroot/usr/include/bits/uintn-identity.h:
+
+../../../include/sphinxbase/bitarr.h:
+
+/opt/riscv/sysroot/usr/include/assert.h:
+
+/opt/riscv/sysroot/usr/include/string.h:
+
+/opt/riscv/sysroot/usr/include/bits/libc-header-start.h:
+
+/opt/riscv/lib/gcc/riscv64-unknown-linux-gnu/7.2.0/include/stddef.h:
+
+/opt/riscv/sysroot/usr/include/bits/types/locale_t.h:
+
+/opt/riscv/sysroot/usr/include/bits/types/__locale_t.h:
+
+/opt/riscv/sysroot/usr/include/strings.h:
+
+/opt/riscv/lib/gcc/riscv64-unknown-linux-gnu/7.2.0/include/stdint.h:
+
+/opt/riscv/sysroot/usr/include/stdint.h:
+
+/opt/riscv/sysroot/usr/include/bits/wchar.h:
+
+/opt/riscv/sysroot/usr/include/bits/stdint-intn.h:
+
+/opt/riscv/sysroot/usr/include/bits/stdint-uintn.h:
+
+../../../include/sphinxbase/prim_type.h:
+
+../../../include/sphinx_config.h:
+
+../../../include/sphinxbase/sphinxbase_export.h:

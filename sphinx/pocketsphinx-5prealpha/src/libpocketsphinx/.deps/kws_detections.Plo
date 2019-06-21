@@ -1,0 +1,312 @@
+kws_detections.lo: kws_detections.c \
+ /opt/riscv/sysroot/usr/include/stdc-predef.h kws_detections.h \
+ /home/parallels/Documents/tailbench-v0.9/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/glist.h \
+ /opt/riscv/sysroot/usr/include/stdlib.h \
+ /opt/riscv/sysroot/usr/include/bits/libc-header-start.h \
+ /opt/riscv/sysroot/usr/include/features.h \
+ /opt/riscv/sysroot/usr/include/sys/cdefs.h \
+ /opt/riscv/sysroot/usr/include/bits/wordsize.h \
+ /opt/riscv/sysroot/usr/include/bits/long-double.h \
+ /opt/riscv/sysroot/usr/include/gnu/stubs.h \
+ /opt/riscv/sysroot/usr/include/gnu/stubs-lp64d.h \
+ /opt/riscv/lib/gcc/riscv64-unknown-linux-gnu/7.2.0/include/stddef.h \
+ /opt/riscv/sysroot/usr/include/bits/waitflags.h \
+ /opt/riscv/sysroot/usr/include/bits/waitstatus.h \
+ /opt/riscv/sysroot/usr/include/bits/floatn.h \
+ /opt/riscv/sysroot/usr/include/sys/types.h \
+ /opt/riscv/sysroot/usr/include/bits/types.h \
+ /opt/riscv/sysroot/usr/include/bits/typesizes.h \
+ /opt/riscv/sysroot/usr/include/bits/types/clock_t.h \
+ /opt/riscv/sysroot/usr/include/bits/types/clockid_t.h \
+ /opt/riscv/sysroot/usr/include/bits/types/time_t.h \
+ /opt/riscv/sysroot/usr/include/bits/types/timer_t.h \
+ /opt/riscv/sysroot/usr/include/bits/stdint-intn.h \
+ /opt/riscv/sysroot/usr/include/endian.h \
+ /opt/riscv/sysroot/usr/include/bits/endian.h \
+ /opt/riscv/sysroot/usr/include/bits/byteswap.h \
+ /opt/riscv/sysroot/usr/include/bits/byteswap-16.h \
+ /opt/riscv/sysroot/usr/include/bits/uintn-identity.h \
+ /opt/riscv/sysroot/usr/include/sys/select.h \
+ /opt/riscv/sysroot/usr/include/bits/select.h \
+ /opt/riscv/sysroot/usr/include/bits/types/sigset_t.h \
+ /opt/riscv/sysroot/usr/include/bits/types/__sigset_t.h \
+ /opt/riscv/sysroot/usr/include/bits/types/struct_timeval.h \
+ /opt/riscv/sysroot/usr/include/bits/types/struct_timespec.h \
+ /opt/riscv/sysroot/usr/include/sys/sysmacros.h \
+ /opt/riscv/sysroot/usr/include/bits/sysmacros.h \
+ /opt/riscv/sysroot/usr/include/bits/pthreadtypes.h \
+ /opt/riscv/sysroot/usr/include/bits/thread-shared-types.h \
+ /opt/riscv/sysroot/usr/include/bits/pthreadtypes-arch.h \
+ /opt/riscv/sysroot/usr/include/alloca.h \
+ /opt/riscv/sysroot/usr/include/bits/stdlib-bsearch.h \
+ /opt/riscv/sysroot/usr/include/bits/stdlib-float.h \
+ /home/parallels/Documents/tailbench-v0.9/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/sphinxbase_export.h \
+ /home/parallels/Documents/tailbench-v0.9/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/prim_type.h \
+ /home/parallels/Documents/tailbench-v0.9/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinx_config.h \
+ pocketsphinx_internal.h \
+ /home/parallels/Documents/tailbench-v0.9/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/cmd_ln.h \
+ /opt/riscv/sysroot/usr/include/stdio.h \
+ /opt/riscv/sysroot/usr/include/bits/types/__FILE.h \
+ /opt/riscv/sysroot/usr/include/bits/types/FILE.h \
+ /opt/riscv/sysroot/usr/include/libio.h \
+ /opt/riscv/sysroot/usr/include/_G_config.h \
+ /opt/riscv/sysroot/usr/include/bits/types/__mbstate_t.h \
+ /opt/riscv/lib/gcc/riscv64-unknown-linux-gnu/7.2.0/include/stdarg.h \
+ /opt/riscv/sysroot/usr/include/bits/stdio_lim.h \
+ /opt/riscv/sysroot/usr/include/bits/sys_errlist.h \
+ /opt/riscv/sysroot/usr/include/bits/stdio.h \
+ /home/parallels/Documents/tailbench-v0.9/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/fe.h \
+ /home/parallels/Documents/tailbench-v0.9/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/fixpoint.h \
+ /opt/riscv/lib/gcc/riscv64-unknown-linux-gnu/7.2.0/include-fixed/limits.h \
+ /opt/riscv/lib/gcc/riscv64-unknown-linux-gnu/7.2.0/include-fixed/syslimits.h \
+ /opt/riscv/sysroot/usr/include/limits.h \
+ /opt/riscv/sysroot/usr/include/bits/posix1_lim.h \
+ /opt/riscv/sysroot/usr/include/bits/local_lim.h \
+ /opt/riscv/sysroot/usr/include/linux/limits.h \
+ /opt/riscv/sysroot/usr/include/bits/posix2_lim.h \
+ /home/parallels/Documents/tailbench-v0.9/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/feat.h \
+ /home/parallels/Documents/tailbench-v0.9/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/cmn.h \
+ /home/parallels/Documents/tailbench-v0.9/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/agc.h \
+ /home/parallels/Documents/tailbench-v0.9/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/hash_table.h \
+ /home/parallels/Documents/tailbench-v0.9/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/logmath.h \
+ /home/parallels/Documents/tailbench-v0.9/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/profile.h \
+ ../../include/pocketsphinx.h ../../include/pocketsphinx_export.h \
+ ../../include/cmdln_macro.h ../../include/ps_lattice.h \
+ /home/parallels/Documents/tailbench-v0.9/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/ngram_model.h \
+ /home/parallels/Documents/tailbench-v0.9/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/mmio.h \
+ ../../include/ps_mllr.h ../../include/ps_search.h \
+ /home/parallels/Documents/tailbench-v0.9/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/fsg_model.h \
+ /opt/riscv/sysroot/usr/include/string.h \
+ /opt/riscv/sysroot/usr/include/bits/types/locale_t.h \
+ /opt/riscv/sysroot/usr/include/bits/types/__locale_t.h \
+ /opt/riscv/sysroot/usr/include/strings.h \
+ /home/parallels/Documents/tailbench-v0.9/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/bitvec.h \
+ /home/parallels/Documents/tailbench-v0.9/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/ckd_alloc.h \
+ /opt/riscv/sysroot/usr/include/setjmp.h \
+ /opt/riscv/sysroot/usr/include/bits/setjmp.h \
+ /home/parallels/Documents/tailbench-v0.9/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/listelem_alloc.h \
+ acmod.h \
+ /home/parallels/Documents/tailbench-v0.9/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/err.h \
+ /opt/riscv/sysroot/usr/include/errno.h \
+ /opt/riscv/sysroot/usr/include/bits/errno.h \
+ /opt/riscv/sysroot/usr/include/linux/errno.h \
+ /opt/riscv/sysroot/usr/include/asm/errno.h \
+ /opt/riscv/sysroot/usr/include/asm-generic/errno.h \
+ /opt/riscv/sysroot/usr/include/asm-generic/errno-base.h bin_mdef.h \
+ mdef.h tmat.h hmm.h dict.h s3types.h \
+ /opt/riscv/lib/gcc/riscv64-unknown-linux-gnu/7.2.0/include/float.h \
+ /opt/riscv/sysroot/usr/include/assert.h dict2pid.h
+
+/opt/riscv/sysroot/usr/include/stdc-predef.h:
+
+kws_detections.h:
+
+/home/parallels/Documents/tailbench-v0.9/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/glist.h:
+
+/opt/riscv/sysroot/usr/include/stdlib.h:
+
+/opt/riscv/sysroot/usr/include/bits/libc-header-start.h:
+
+/opt/riscv/sysroot/usr/include/features.h:
+
+/opt/riscv/sysroot/usr/include/sys/cdefs.h:
+
+/opt/riscv/sysroot/usr/include/bits/wordsize.h:
+
+/opt/riscv/sysroot/usr/include/bits/long-double.h:
+
+/opt/riscv/sysroot/usr/include/gnu/stubs.h:
+
+/opt/riscv/sysroot/usr/include/gnu/stubs-lp64d.h:
+
+/opt/riscv/lib/gcc/riscv64-unknown-linux-gnu/7.2.0/include/stddef.h:
+
+/opt/riscv/sysroot/usr/include/bits/waitflags.h:
+
+/opt/riscv/sysroot/usr/include/bits/waitstatus.h:
+
+/opt/riscv/sysroot/usr/include/bits/floatn.h:
+
+/opt/riscv/sysroot/usr/include/sys/types.h:
+
+/opt/riscv/sysroot/usr/include/bits/types.h:
+
+/opt/riscv/sysroot/usr/include/bits/typesizes.h:
+
+/opt/riscv/sysroot/usr/include/bits/types/clock_t.h:
+
+/opt/riscv/sysroot/usr/include/bits/types/clockid_t.h:
+
+/opt/riscv/sysroot/usr/include/bits/types/time_t.h:
+
+/opt/riscv/sysroot/usr/include/bits/types/timer_t.h:
+
+/opt/riscv/sysroot/usr/include/bits/stdint-intn.h:
+
+/opt/riscv/sysroot/usr/include/endian.h:
+
+/opt/riscv/sysroot/usr/include/bits/endian.h:
+
+/opt/riscv/sysroot/usr/include/bits/byteswap.h:
+
+/opt/riscv/sysroot/usr/include/bits/byteswap-16.h:
+
+/opt/riscv/sysroot/usr/include/bits/uintn-identity.h:
+
+/opt/riscv/sysroot/usr/include/sys/select.h:
+
+/opt/riscv/sysroot/usr/include/bits/select.h:
+
+/opt/riscv/sysroot/usr/include/bits/types/sigset_t.h:
+
+/opt/riscv/sysroot/usr/include/bits/types/__sigset_t.h:
+
+/opt/riscv/sysroot/usr/include/bits/types/struct_timeval.h:
+
+/opt/riscv/sysroot/usr/include/bits/types/struct_timespec.h:
+
+/opt/riscv/sysroot/usr/include/sys/sysmacros.h:
+
+/opt/riscv/sysroot/usr/include/bits/sysmacros.h:
+
+/opt/riscv/sysroot/usr/include/bits/pthreadtypes.h:
+
+/opt/riscv/sysroot/usr/include/bits/thread-shared-types.h:
+
+/opt/riscv/sysroot/usr/include/bits/pthreadtypes-arch.h:
+
+/opt/riscv/sysroot/usr/include/alloca.h:
+
+/opt/riscv/sysroot/usr/include/bits/stdlib-bsearch.h:
+
+/opt/riscv/sysroot/usr/include/bits/stdlib-float.h:
+
+/home/parallels/Documents/tailbench-v0.9/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/sphinxbase_export.h:
+
+/home/parallels/Documents/tailbench-v0.9/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/prim_type.h:
+
+/home/parallels/Documents/tailbench-v0.9/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinx_config.h:
+
+pocketsphinx_internal.h:
+
+/home/parallels/Documents/tailbench-v0.9/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/cmd_ln.h:
+
+/opt/riscv/sysroot/usr/include/stdio.h:
+
+/opt/riscv/sysroot/usr/include/bits/types/__FILE.h:
+
+/opt/riscv/sysroot/usr/include/bits/types/FILE.h:
+
+/opt/riscv/sysroot/usr/include/libio.h:
+
+/opt/riscv/sysroot/usr/include/_G_config.h:
+
+/opt/riscv/sysroot/usr/include/bits/types/__mbstate_t.h:
+
+/opt/riscv/lib/gcc/riscv64-unknown-linux-gnu/7.2.0/include/stdarg.h:
+
+/opt/riscv/sysroot/usr/include/bits/stdio_lim.h:
+
+/opt/riscv/sysroot/usr/include/bits/sys_errlist.h:
+
+/opt/riscv/sysroot/usr/include/bits/stdio.h:
+
+/home/parallels/Documents/tailbench-v0.9/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/fe.h:
+
+/home/parallels/Documents/tailbench-v0.9/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/fixpoint.h:
+
+/opt/riscv/lib/gcc/riscv64-unknown-linux-gnu/7.2.0/include-fixed/limits.h:
+
+/opt/riscv/lib/gcc/riscv64-unknown-linux-gnu/7.2.0/include-fixed/syslimits.h:
+
+/opt/riscv/sysroot/usr/include/limits.h:
+
+/opt/riscv/sysroot/usr/include/bits/posix1_lim.h:
+
+/opt/riscv/sysroot/usr/include/bits/local_lim.h:
+
+/opt/riscv/sysroot/usr/include/linux/limits.h:
+
+/opt/riscv/sysroot/usr/include/bits/posix2_lim.h:
+
+/home/parallels/Documents/tailbench-v0.9/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/feat.h:
+
+/home/parallels/Documents/tailbench-v0.9/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/cmn.h:
+
+/home/parallels/Documents/tailbench-v0.9/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/agc.h:
+
+/home/parallels/Documents/tailbench-v0.9/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/hash_table.h:
+
+/home/parallels/Documents/tailbench-v0.9/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/logmath.h:
+
+/home/parallels/Documents/tailbench-v0.9/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/profile.h:
+
+../../include/pocketsphinx.h:
+
+../../include/pocketsphinx_export.h:
+
+../../include/cmdln_macro.h:
+
+../../include/ps_lattice.h:
+
+/home/parallels/Documents/tailbench-v0.9/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/ngram_model.h:
+
+/home/parallels/Documents/tailbench-v0.9/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/mmio.h:
+
+../../include/ps_mllr.h:
+
+../../include/ps_search.h:
+
+/home/parallels/Documents/tailbench-v0.9/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/fsg_model.h:
+
+/opt/riscv/sysroot/usr/include/string.h:
+
+/opt/riscv/sysroot/usr/include/bits/types/locale_t.h:
+
+/opt/riscv/sysroot/usr/include/bits/types/__locale_t.h:
+
+/opt/riscv/sysroot/usr/include/strings.h:
+
+/home/parallels/Documents/tailbench-v0.9/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/bitvec.h:
+
+/home/parallels/Documents/tailbench-v0.9/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/ckd_alloc.h:
+
+/opt/riscv/sysroot/usr/include/setjmp.h:
+
+/opt/riscv/sysroot/usr/include/bits/setjmp.h:
+
+/home/parallels/Documents/tailbench-v0.9/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/listelem_alloc.h:
+
+acmod.h:
+
+/home/parallels/Documents/tailbench-v0.9/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/err.h:
+
+/opt/riscv/sysroot/usr/include/errno.h:
+
+/opt/riscv/sysroot/usr/include/bits/errno.h:
+
+/opt/riscv/sysroot/usr/include/linux/errno.h:
+
+/opt/riscv/sysroot/usr/include/asm/errno.h:
+
+/opt/riscv/sysroot/usr/include/asm-generic/errno.h:
+
+/opt/riscv/sysroot/usr/include/asm-generic/errno-base.h:
+
+bin_mdef.h:
+
+mdef.h:
+
+tmat.h:
+
+hmm.h:
+
+dict.h:
+
+s3types.h:
+
+/opt/riscv/lib/gcc/riscv64-unknown-linux-gnu/7.2.0/include/float.h:
+
+/opt/riscv/sysroot/usr/include/assert.h:
+
+dict2pid.h:

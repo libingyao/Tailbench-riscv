@@ -1,0 +1,248 @@
+mmio.lo: mmio.c /opt/riscv/sysroot/usr/include/stdc-predef.h \
+ /opt/riscv/sysroot/usr/include/string.h \
+ /opt/riscv/sysroot/usr/include/bits/libc-header-start.h \
+ /opt/riscv/sysroot/usr/include/features.h \
+ /opt/riscv/sysroot/usr/include/sys/cdefs.h \
+ /opt/riscv/sysroot/usr/include/bits/wordsize.h \
+ /opt/riscv/sysroot/usr/include/bits/long-double.h \
+ /opt/riscv/sysroot/usr/include/gnu/stubs.h \
+ /opt/riscv/sysroot/usr/include/gnu/stubs-lp64d.h \
+ /opt/riscv/lib/gcc/riscv64-unknown-linux-gnu/7.2.0/include/stddef.h \
+ /opt/riscv/sysroot/usr/include/bits/types/locale_t.h \
+ /opt/riscv/sysroot/usr/include/bits/types/__locale_t.h \
+ /opt/riscv/sysroot/usr/include/strings.h \
+ /opt/riscv/sysroot/usr/include/stdlib.h \
+ /opt/riscv/sysroot/usr/include/bits/waitflags.h \
+ /opt/riscv/sysroot/usr/include/bits/waitstatus.h \
+ /opt/riscv/sysroot/usr/include/bits/floatn.h \
+ /opt/riscv/sysroot/usr/include/sys/types.h \
+ /opt/riscv/sysroot/usr/include/bits/types.h \
+ /opt/riscv/sysroot/usr/include/bits/typesizes.h \
+ /opt/riscv/sysroot/usr/include/bits/types/clock_t.h \
+ /opt/riscv/sysroot/usr/include/bits/types/clockid_t.h \
+ /opt/riscv/sysroot/usr/include/bits/types/time_t.h \
+ /opt/riscv/sysroot/usr/include/bits/types/timer_t.h \
+ /opt/riscv/sysroot/usr/include/bits/stdint-intn.h \
+ /opt/riscv/sysroot/usr/include/endian.h \
+ /opt/riscv/sysroot/usr/include/bits/endian.h \
+ /opt/riscv/sysroot/usr/include/bits/byteswap.h \
+ /opt/riscv/sysroot/usr/include/bits/byteswap-16.h \
+ /opt/riscv/sysroot/usr/include/bits/uintn-identity.h \
+ /opt/riscv/sysroot/usr/include/sys/select.h \
+ /opt/riscv/sysroot/usr/include/bits/select.h \
+ /opt/riscv/sysroot/usr/include/bits/types/sigset_t.h \
+ /opt/riscv/sysroot/usr/include/bits/types/__sigset_t.h \
+ /opt/riscv/sysroot/usr/include/bits/types/struct_timeval.h \
+ /opt/riscv/sysroot/usr/include/bits/types/struct_timespec.h \
+ /opt/riscv/sysroot/usr/include/sys/sysmacros.h \
+ /opt/riscv/sysroot/usr/include/bits/sysmacros.h \
+ /opt/riscv/sysroot/usr/include/bits/pthreadtypes.h \
+ /opt/riscv/sysroot/usr/include/bits/thread-shared-types.h \
+ /opt/riscv/sysroot/usr/include/bits/pthreadtypes-arch.h \
+ /opt/riscv/sysroot/usr/include/alloca.h \
+ /opt/riscv/sysroot/usr/include/bits/stdlib-bsearch.h \
+ /opt/riscv/sysroot/usr/include/bits/stdlib-float.h \
+ /opt/riscv/sysroot/usr/include/unistd.h \
+ /opt/riscv/sysroot/usr/include/bits/posix_opt.h \
+ /opt/riscv/sysroot/usr/include/bits/environments.h \
+ /opt/riscv/sysroot/usr/include/bits/confname.h \
+ /opt/riscv/sysroot/usr/include/bits/getopt_posix.h \
+ /opt/riscv/sysroot/usr/include/bits/getopt_core.h \
+ /opt/riscv/sysroot/usr/include/fcntl.h \
+ /opt/riscv/sysroot/usr/include/bits/fcntl.h \
+ /opt/riscv/sysroot/usr/include/bits/fcntl-linux.h \
+ /opt/riscv/sysroot/usr/include/bits/stat.h \
+ /opt/riscv/sysroot/usr/include/sys/stat.h \
+ /opt/riscv/sysroot/usr/include/sys/file.h \
+ /opt/riscv/sysroot/usr/include/sys/mman.h \
+ /opt/riscv/sysroot/usr/include/bits/mman.h \
+ /opt/riscv/sysroot/usr/include/bits/mman-linux.h \
+ ../../../include/sphinxbase/prim_type.h ../../../include/sphinx_config.h \
+ ../../../include/sphinxbase/err.h \
+ /opt/riscv/lib/gcc/riscv64-unknown-linux-gnu/7.2.0/include/stdarg.h \
+ /opt/riscv/sysroot/usr/include/stdio.h \
+ /opt/riscv/sysroot/usr/include/bits/types/__FILE.h \
+ /opt/riscv/sysroot/usr/include/bits/types/FILE.h \
+ /opt/riscv/sysroot/usr/include/libio.h \
+ /opt/riscv/sysroot/usr/include/_G_config.h \
+ /opt/riscv/sysroot/usr/include/bits/types/__mbstate_t.h \
+ /opt/riscv/sysroot/usr/include/bits/stdio_lim.h \
+ /opt/riscv/sysroot/usr/include/bits/sys_errlist.h \
+ /opt/riscv/sysroot/usr/include/bits/stdio.h \
+ /opt/riscv/sysroot/usr/include/errno.h \
+ /opt/riscv/sysroot/usr/include/bits/errno.h \
+ /opt/riscv/sysroot/usr/include/linux/errno.h \
+ /opt/riscv/sysroot/usr/include/asm/errno.h \
+ /opt/riscv/sysroot/usr/include/asm-generic/errno.h \
+ /opt/riscv/sysroot/usr/include/asm-generic/errno-base.h \
+ ../../../include/sphinxbase/sphinxbase_export.h \
+ ../../../include/sphinxbase/mmio.h \
+ ../../../include/sphinxbase/ckd_alloc.h \
+ /opt/riscv/sysroot/usr/include/setjmp.h \
+ /opt/riscv/sysroot/usr/include/bits/setjmp.h
+
+/opt/riscv/sysroot/usr/include/stdc-predef.h:
+
+/opt/riscv/sysroot/usr/include/string.h:
+
+/opt/riscv/sysroot/usr/include/bits/libc-header-start.h:
+
+/opt/riscv/sysroot/usr/include/features.h:
+
+/opt/riscv/sysroot/usr/include/sys/cdefs.h:
+
+/opt/riscv/sysroot/usr/include/bits/wordsize.h:
+
+/opt/riscv/sysroot/usr/include/bits/long-double.h:
+
+/opt/riscv/sysroot/usr/include/gnu/stubs.h:
+
+/opt/riscv/sysroot/usr/include/gnu/stubs-lp64d.h:
+
+/opt/riscv/lib/gcc/riscv64-unknown-linux-gnu/7.2.0/include/stddef.h:
+
+/opt/riscv/sysroot/usr/include/bits/types/locale_t.h:
+
+/opt/riscv/sysroot/usr/include/bits/types/__locale_t.h:
+
+/opt/riscv/sysroot/usr/include/strings.h:
+
+/opt/riscv/sysroot/usr/include/stdlib.h:
+
+/opt/riscv/sysroot/usr/include/bits/waitflags.h:
+
+/opt/riscv/sysroot/usr/include/bits/waitstatus.h:
+
+/opt/riscv/sysroot/usr/include/bits/floatn.h:
+
+/opt/riscv/sysroot/usr/include/sys/types.h:
+
+/opt/riscv/sysroot/usr/include/bits/types.h:
+
+/opt/riscv/sysroot/usr/include/bits/typesizes.h:
+
+/opt/riscv/sysroot/usr/include/bits/types/clock_t.h:
+
+/opt/riscv/sysroot/usr/include/bits/types/clockid_t.h:
+
+/opt/riscv/sysroot/usr/include/bits/types/time_t.h:
+
+/opt/riscv/sysroot/usr/include/bits/types/timer_t.h:
+
+/opt/riscv/sysroot/usr/include/bits/stdint-intn.h:
+
+/opt/riscv/sysroot/usr/include/endian.h:
+
+/opt/riscv/sysroot/usr/include/bits/endian.h:
+
+/opt/riscv/sysroot/usr/include/bits/byteswap.h:
+
+/opt/riscv/sysroot/usr/include/bits/byteswap-16.h:
+
+/opt/riscv/sysroot/usr/include/bits/uintn-identity.h:
+
+/opt/riscv/sysroot/usr/include/sys/select.h:
+
+/opt/riscv/sysroot/usr/include/bits/select.h:
+
+/opt/riscv/sysroot/usr/include/bits/types/sigset_t.h:
+
+/opt/riscv/sysroot/usr/include/bits/types/__sigset_t.h:
+
+/opt/riscv/sysroot/usr/include/bits/types/struct_timeval.h:
+
+/opt/riscv/sysroot/usr/include/bits/types/struct_timespec.h:
+
+/opt/riscv/sysroot/usr/include/sys/sysmacros.h:
+
+/opt/riscv/sysroot/usr/include/bits/sysmacros.h:
+
+/opt/riscv/sysroot/usr/include/bits/pthreadtypes.h:
+
+/opt/riscv/sysroot/usr/include/bits/thread-shared-types.h:
+
+/opt/riscv/sysroot/usr/include/bits/pthreadtypes-arch.h:
+
+/opt/riscv/sysroot/usr/include/alloca.h:
+
+/opt/riscv/sysroot/usr/include/bits/stdlib-bsearch.h:
+
+/opt/riscv/sysroot/usr/include/bits/stdlib-float.h:
+
+/opt/riscv/sysroot/usr/include/unistd.h:
+
+/opt/riscv/sysroot/usr/include/bits/posix_opt.h:
+
+/opt/riscv/sysroot/usr/include/bits/environments.h:
+
+/opt/riscv/sysroot/usr/include/bits/confname.h:
+
+/opt/riscv/sysroot/usr/include/bits/getopt_posix.h:
+
+/opt/riscv/sysroot/usr/include/bits/getopt_core.h:
+
+/opt/riscv/sysroot/usr/include/fcntl.h:
+
+/opt/riscv/sysroot/usr/include/bits/fcntl.h:
+
+/opt/riscv/sysroot/usr/include/bits/fcntl-linux.h:
+
+/opt/riscv/sysroot/usr/include/bits/stat.h:
+
+/opt/riscv/sysroot/usr/include/sys/stat.h:
+
+/opt/riscv/sysroot/usr/include/sys/file.h:
+
+/opt/riscv/sysroot/usr/include/sys/mman.h:
+
+/opt/riscv/sysroot/usr/include/bits/mman.h:
+
+/opt/riscv/sysroot/usr/include/bits/mman-linux.h:
+
+../../../include/sphinxbase/prim_type.h:
+
+../../../include/sphinx_config.h:
+
+../../../include/sphinxbase/err.h:
+
+/opt/riscv/lib/gcc/riscv64-unknown-linux-gnu/7.2.0/include/stdarg.h:
+
+/opt/riscv/sysroot/usr/include/stdio.h:
+
+/opt/riscv/sysroot/usr/include/bits/types/__FILE.h:
+
+/opt/riscv/sysroot/usr/include/bits/types/FILE.h:
+
+/opt/riscv/sysroot/usr/include/libio.h:
+
+/opt/riscv/sysroot/usr/include/_G_config.h:
+
+/opt/riscv/sysroot/usr/include/bits/types/__mbstate_t.h:
+
+/opt/riscv/sysroot/usr/include/bits/stdio_lim.h:
+
+/opt/riscv/sysroot/usr/include/bits/sys_errlist.h:
+
+/opt/riscv/sysroot/usr/include/bits/stdio.h:
+
+/opt/riscv/sysroot/usr/include/errno.h:
+
+/opt/riscv/sysroot/usr/include/bits/errno.h:
+
+/opt/riscv/sysroot/usr/include/linux/errno.h:
+
+/opt/riscv/sysroot/usr/include/asm/errno.h:
+
+/opt/riscv/sysroot/usr/include/asm-generic/errno.h:
+
+/opt/riscv/sysroot/usr/include/asm-generic/errno-base.h:
+
+../../../include/sphinxbase/sphinxbase_export.h:
+
+../../../include/sphinxbase/mmio.h:
+
+../../../include/sphinxbase/ckd_alloc.h:
+
+/opt/riscv/sysroot/usr/include/setjmp.h:
+
+/opt/riscv/sysroot/usr/include/bits/setjmp.h:
