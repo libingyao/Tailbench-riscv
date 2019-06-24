@@ -29,7 +29,7 @@ AM_PROG_AS
 AC_PROG_CXXCPP
 AC_REQUIRE_CPP
 
-using_gcc=$ac_cv_cxx_compiler_gnu
+using_gcc=$riscv64-unknown-linux-gnu-gcc
 # echo using gcc $using_gcc
 
 AC_LANG_PUSH(C++)

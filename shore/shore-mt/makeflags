@@ -1,0 +1,2 @@
+These are the CXX flags used with the last build: 
+-march=core2 -mtune=core2 -DNDEBUG -UDEBUG -ggdb -O3 -fexpensive-optimizations -DNO_FASTNEW -D_REENTRANT -D_POSIX_PTHREAD_SEMANTICS UNKNOWN COMPILER -m64 -DARCH_LP64 -I../src/atomic_ops

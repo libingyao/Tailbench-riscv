@@ -28,8 +28,8 @@ atomic_ops_keep_symtab_nonempty:
 #error atomic_ops not ported to ia-64
 
 
-#else
-#error Atomic ops not ported to (unknown architecture)
+//#else
+//#error Atomic ops not ported to (unknown architecture)
 #endif /* __sparcv9, etc */
 
 /*ARCH_LP64*/

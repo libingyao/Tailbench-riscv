@@ -50,7 +50,7 @@ namespace memory_block {
    arrays.
  */
 #ifdef __GNUC__
-#define EMPTY_ARRAY_DIM
+#define EMPTY_ARRAY_DIM 0
 #else
 #define EMPTY_ARRAY_DIM 0
 #endif

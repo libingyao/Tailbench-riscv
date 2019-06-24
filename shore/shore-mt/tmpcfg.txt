@@ -1,0 +1,1 @@
+configure args: --enable-dora --enable-dbgsymbols CXX=riscv64-unknown-linux-gnu-g++ CC=riscv64-unknown-linux-gnu-gcc AM_CXXFLAGS=-I/home/parallels/rocket-chip/rocket-tools/riscv-gnu-toolchain/include LDFLAGS=-L/home/parallels/rocket-chip/rocket-tools/riscv-gnu-toolchain/lib --no-create --no-recursion

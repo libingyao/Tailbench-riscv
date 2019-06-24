@@ -193,7 +193,7 @@ void cpu_info::init_impl() {
 }
 
 #else
-#error Sorry, no way to identify the cpu a thread is running on
+//#error Sorry, no way to identify the cpu a thread is running on
 #endif
 
 #ifdef __linux__
