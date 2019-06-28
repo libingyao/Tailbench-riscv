@@ -8,3 +8,5 @@ need openCV（compiled with riscv.toolchain.cmake）
 
 
 sphinx completed
+
+xapian completed
