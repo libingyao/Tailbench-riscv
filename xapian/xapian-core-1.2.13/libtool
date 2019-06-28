@@ -44,7 +44,7 @@ macro_version=2.4
 macro_revision=1.3293
 
 # Whether or not to build shared libraries.
-build_libtool_libs=yes
+build_libtool_libs=no
 
 # Whether or not to build static libraries.
 build_old_libs=yes
@@ -53,7 +53,7 @@ build_old_libs=yes
 pic_mode=default
 
 # Whether or not to optimize for fast installation.
-fast_install=yes
+fast_install=needless
 
 # Shell to use when invoking shell scripts.
 SHELL="/bin/bash"
@@ -219,7 +219,7 @@ extract_expsyms_cmds=""
 
 # Variables whose values should be saved in libtool wrapper scripts and
 # restored at link time.
-variables_saved_for_relink="PATH LD_LIBRARY_PATH LD_RUN_PATH GCC_EXEC_PREFIX COMPILER_PATH LIBRARY_PATH"
+variables_saved_for_relink="PATH LD_LIBRARY_PATH  GCC_EXEC_PREFIX COMPILER_PATH LIBRARY_PATH"
 
 # Do we need the "lib" prefix for modules?
 need_lib_prefix=no
@@ -231,7 +231,7 @@ need_version=no
 version_type=linux
 
 # Shared library runtime path variable.
-runpath_var=LD_RUN_PATH
+runpath_var=
 
 # Shared library path variable.
 shlibpath_var=LD_LIBRARY_PATH
@@ -269,7 +269,7 @@ finish_eval=""
 hardcode_into_libs=yes
 
 # Compile-time system search path for libraries.
-sys_lib_search_path_spec="/usr/lib/gcc/x86_64-linux-gnu/5 /usr/lib/x86_64-linux-gnu /usr/lib /lib/x86_64-linux-gnu /lib "
+sys_lib_search_path_spec="/opt/riscv/lib/gcc/riscv64-unknown-linux-gnu/7.2.0 /opt/riscv/riscv64-unknown-linux-gnu/lib /opt/riscv/sysroot/lib /opt/riscv/sysroot/usr/lib "
 
 # Run-time system search path for libraries.
 sys_lib_dlsearch_path_spec="/usr/local/lib /usr/lib/x86_64-linux-gnu/libfakeroot /lib/x86_64-linux-gnu /usr/lib/x86_64-linux-gnu /usr/lib/x86_64-linux-gnu/mesa-egl /usr/lib/x86_64-linux-gnu/mesa /lib32 /usr/lib32 /libx32 /usr/libx32 /lib /usr/lib "
@@ -289,7 +289,7 @@ striplib="strip --strip-unneeded"
 
 
 # The linker used to build libraries.
-LD="/usr/bin/ld -m elf_x86_64"
+LD="/opt/riscv/riscv64-unknown-linux-gnu/bin/ld -m elf_x86_64"
 
 # How to create reloadable object files.
 reload_flag=" -r"
@@ -299,7 +299,7 @@ reload_cmds="\$LD\$reload_flag -o \$output\$reload_objs"
 old_archive_cmds="\$AR \$AR_FLAGS \$oldlib\$oldobjs~\$RANLIB \$oldlib"
 
 # A language specific compiler.
-CC="gcc"
+CC="riscv64-unknown-linux-gnu-gcc"
 
 # Is the compiler the GNU compiler?
 with_gcc=yes
@@ -320,16 +320,16 @@ link_static_flag="-static"
 compiler_c_o="yes"
 
 # Whether or not to add -lc for building shared libraries.
-build_libtool_need_lc=no
+build_libtool_need_lc=yes
 
 # Whether or not to disallow shared libs when runtime libs are static.
 allow_libtool_libs_with_static_runtimes=no
 
 # Compiler flag to allow reflexive dlopens.
-export_dynamic_flag_spec="\${wl}--export-dynamic"
+export_dynamic_flag_spec=""
 
 # Compiler flag to generate shared objects directly from archives.
-whole_archive_flag_spec="\${wl}--whole-archive\$convenience \${wl}--no-whole-archive"
+whole_archive_flag_spec=""
 
 # Whether the compiler copes with passing no objects directly.
 compiler_needs_object="no"
@@ -341,11 +341,8 @@ old_archive_from_new_cmds=""
 old_archive_from_expsyms_cmds=""
 
 # Commands used to build a shared archive.
-archive_cmds="\$CC -shared \$pic_flag \$libobjs \$deplibs \$compiler_flags \${wl}-soname \$wl\$soname -o \$lib"
-archive_expsym_cmds="echo \\\"{ global:\\\" > \$output_objdir/\$libname.ver~
-	    cat \$export_symbols | sed -e \\\"s/\\\\(.*\\\\)/\\\\1;/\\\" >> \$output_objdir/\$libname.ver~
-	    echo \\\"local: *; };\\\" >> \$output_objdir/\$libname.ver~
-	    \$CC -shared \$pic_flag \$libobjs \$deplibs \$compiler_flags \${wl}-soname \$wl\$soname \${wl}-version-script \${wl}\$output_objdir/\$libname.ver -o \$lib"
+archive_cmds=""
+archive_expsym_cmds=""
 
 # Commands used to build a loadable module if different from building
 # a shared archive.
@@ -363,7 +360,7 @@ no_undefined_flag=""
 
 # Flag to hardcode $libdir into a binary during linking.
 # This must work even if $libdir does not exist
-hardcode_libdir_flag_spec="\${wl}-rpath \${wl}\$libdir"
+hardcode_libdir_flag_spec=""
 
 # If ld is used when linking, flag to hardcode $libdir into a binary
 # during linking.  This must work even if $libdir does not exist.
@@ -424,7 +421,7 @@ postlink_cmds=""
 file_list_spec=""
 
 # How to hardcode a shared library path into an executable.
-hardcode_action=immediate
+hardcode_action=unsupported
 
 # The directories searched by this compiler when creating a shared library.
 compiler_lib_search_dirs=""
@@ -10075,7 +10072,7 @@ build_old_libs=`case $build_libtool_libs in yes) echo no;; *) echo yes;; esac`
 # ### BEGIN LIBTOOL TAG CONFIG: CXX
 
 # The linker used to build libraries.
-LD="/usr/bin/ld -m elf_x86_64"
+LD="/opt/riscv/riscv64-unknown-linux-gnu/bin/ld -m elf_x86_64"
 
 # How to create reloadable object files.
 reload_flag=" -r"
@@ -10112,10 +10109,10 @@ build_libtool_need_lc=no
 allow_libtool_libs_with_static_runtimes=no
 
 # Compiler flag to allow reflexive dlopens.
-export_dynamic_flag_spec="\${wl}--export-dynamic"
+export_dynamic_flag_spec=""
 
 # Compiler flag to generate shared objects directly from archives.
-whole_archive_flag_spec="\${wl}--whole-archive\$convenience \${wl}--no-whole-archive"
+whole_archive_flag_spec=""
 
 # Whether the compiler copes with passing no objects directly.
 compiler_needs_object="no"
@@ -10127,8 +10124,8 @@ old_archive_from_new_cmds=""
 old_archive_from_expsyms_cmds=""
 
 # Commands used to build a shared archive.
-archive_cmds="\$CC \$pic_flag -shared -nostdlib \$predep_objects \$libobjs \$deplibs \$postdep_objects \$compiler_flags \${wl}-soname \$wl\$soname -o \$lib"
-archive_expsym_cmds="\$CC \$pic_flag -shared -nostdlib \$predep_objects \$libobjs \$deplibs \$postdep_objects \$compiler_flags \${wl}-soname \$wl\$soname \${wl}-retain-symbols-file \$wl\$export_symbols -o \$lib"
+archive_cmds="\$CC -shared -nostdlib \$predep_objects \$libobjs \$deplibs \$postdep_objects \$compiler_flags -o \$lib"
+archive_expsym_cmds=""
 
 # Commands used to build a loadable module if different from building
 # a shared archive.
@@ -10136,7 +10133,7 @@ module_cmds=""
 module_expsym_cmds=""
 
 # Whether we are building with GNU ld or not.
-with_gnu_ld="yes"
+with_gnu_ld="no"
 
 # Flag that allows shared libraries with undefined symbols to be built.
 allow_undefined_flag=""
@@ -10146,7 +10143,7 @@ no_undefined_flag=""
 
 # Flag to hardcode $libdir into a binary during linking.
 # This must work even if $libdir does not exist
-hardcode_libdir_flag_spec="\${wl}-rpath \${wl}\$libdir"
+hardcode_libdir_flag_spec=""
 
 # If ld is used when linking, flag to hardcode $libdir into a binary
 # during linking.  This must work even if $libdir does not exist.
@@ -10207,7 +10204,7 @@ postlink_cmds=""
 file_list_spec=""
 
 # How to hardcode a shared library path into an executable.
-hardcode_action=immediate
+hardcode_action=unsupported
 
 # The directories searched by this compiler when creating a shared library.
 compiler_lib_search_dirs="/usr/lib/gcc/x86_64-linux-gnu/5 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib /lib/x86_64-linux-gnu /lib/../lib /usr/lib/x86_64-linux-gnu /usr/lib/../lib /usr/lib/gcc/x86_64-linux-gnu/5/../../.."

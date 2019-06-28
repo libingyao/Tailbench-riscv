@@ -169,11 +169,11 @@
 
 /* Define to the name of a function implementing snprintf but not caring about
    ISO C99 return value semantics (if one exists) */
-#define SNPRINTF snprintf
+/* #undef SNPRINTF */
 
 /* Define to the name of a function implementing snprintf with ISO C99
    semantics (if one exists) */
-#define SNPRINTF_ISO snprintf
+/* #undef SNPRINTF_ISO */
 
 /* type to use for 5th parameter to getsockopt */
 #define SOCKLEN_T socklen_t

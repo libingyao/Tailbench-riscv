@@ -1,133 +1,244 @@
-api/matchspy.lo: api/matchspy.cc /usr/include/stdc-predef.h config.h \
+api/matchspy.lo: api/matchspy.cc \
+ /opt/riscv/sysroot/usr/include/stdc-predef.h config.h \
  include/xapian/matchspy.h include/xapian/base.h \
  include/xapian/deprecated.h include/xapian/enquire.h \
- /usr/include/c++/5/string \
- /usr/include/x86_64-linux-gnu/c++/5/bits/c++config.h \
- /usr/include/x86_64-linux-gnu/c++/5/bits/os_defines.h \
- /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
- /usr/include/x86_64-linux-gnu/bits/wordsize.h \
- /usr/include/x86_64-linux-gnu/gnu/stubs.h \
- /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
- /usr/include/x86_64-linux-gnu/c++/5/bits/cpu_defines.h \
- /usr/include/c++/5/bits/stringfwd.h /usr/include/c++/5/bits/memoryfwd.h \
- /usr/include/c++/5/bits/char_traits.h \
- /usr/include/c++/5/bits/stl_algobase.h \
- /usr/include/c++/5/bits/functexcept.h \
- /usr/include/c++/5/bits/exception_defines.h \
- /usr/include/c++/5/bits/cpp_type_traits.h \
- /usr/include/c++/5/ext/type_traits.h \
- /usr/include/c++/5/ext/numeric_traits.h \
- /usr/include/c++/5/bits/stl_pair.h /usr/include/c++/5/bits/move.h \
- /usr/include/c++/5/bits/concept_check.h \
- /usr/include/c++/5/bits/stl_iterator_base_types.h \
- /usr/include/c++/5/bits/stl_iterator_base_funcs.h \
- /usr/include/c++/5/debug/debug.h /usr/include/c++/5/bits/stl_iterator.h \
- /usr/include/c++/5/bits/ptr_traits.h \
- /usr/include/c++/5/bits/predefined_ops.h \
- /usr/include/c++/5/bits/postypes.h /usr/include/c++/5/cwchar \
- /usr/include/wchar.h /usr/include/stdio.h \
- /usr/lib/gcc/x86_64-linux-gnu/5/include/stdarg.h \
- /usr/include/x86_64-linux-gnu/bits/wchar.h \
- /usr/lib/gcc/x86_64-linux-gnu/5/include/stddef.h /usr/include/xlocale.h \
- /usr/include/x86_64-linux-gnu/bits/wchar2.h \
- /usr/include/c++/5/bits/allocator.h \
- /usr/include/x86_64-linux-gnu/c++/5/bits/c++allocator.h \
- /usr/include/c++/5/ext/new_allocator.h /usr/include/c++/5/new \
- /usr/include/c++/5/exception \
- /usr/include/c++/5/bits/atomic_lockfree_defines.h \
- /usr/include/c++/5/bits/localefwd.h \
- /usr/include/x86_64-linux-gnu/c++/5/bits/c++locale.h \
- /usr/include/c++/5/clocale /usr/include/locale.h \
- /usr/include/x86_64-linux-gnu/bits/locale.h /usr/include/c++/5/iosfwd \
- /usr/include/c++/5/cctype /usr/include/ctype.h \
- /usr/include/x86_64-linux-gnu/bits/types.h \
- /usr/include/x86_64-linux-gnu/bits/typesizes.h /usr/include/endian.h \
- /usr/include/x86_64-linux-gnu/bits/endian.h \
- /usr/include/x86_64-linux-gnu/bits/byteswap.h \
- /usr/include/x86_64-linux-gnu/bits/byteswap-16.h \
- /usr/include/c++/5/bits/ostream_insert.h \
- /usr/include/c++/5/bits/cxxabi_forced.h \
- /usr/include/c++/5/bits/stl_function.h \
- /usr/include/c++/5/backward/binders.h \
- /usr/include/c++/5/bits/range_access.h \
- /usr/include/c++/5/bits/basic_string.h \
- /usr/include/c++/5/ext/atomicity.h \
- /usr/include/x86_64-linux-gnu/c++/5/bits/gthr.h \
- /usr/include/x86_64-linux-gnu/c++/5/bits/gthr-default.h \
- /usr/include/pthread.h /usr/include/sched.h /usr/include/time.h \
- /usr/include/x86_64-linux-gnu/bits/sched.h \
- /usr/include/x86_64-linux-gnu/bits/time.h \
- /usr/include/x86_64-linux-gnu/bits/timex.h \
- /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
- /usr/include/x86_64-linux-gnu/bits/setjmp.h \
- /usr/include/x86_64-linux-gnu/c++/5/bits/atomic_word.h \
- /usr/include/c++/5/ext/alloc_traits.h \
- /usr/include/c++/5/bits/basic_string.tcc include/xapian/keymaker.h \
- /usr/include/c++/5/vector /usr/include/c++/5/bits/stl_construct.h \
- /usr/include/c++/5/bits/stl_uninitialized.h \
- /usr/include/c++/5/bits/stl_vector.h \
- /usr/include/c++/5/bits/stl_bvector.h /usr/include/c++/5/bits/vector.tcc \
+ /opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/string \
+ /opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/riscv64-unknown-linux-gnu/bits/c++config.h \
+ /opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/riscv64-unknown-linux-gnu/bits/os_defines.h \
+ /opt/riscv/sysroot/usr/include/features.h \
+ /opt/riscv/sysroot/usr/include/sys/cdefs.h \
+ /opt/riscv/sysroot/usr/include/bits/wordsize.h \
+ /opt/riscv/sysroot/usr/include/bits/long-double.h \
+ /opt/riscv/sysroot/usr/include/gnu/stubs.h \
+ /opt/riscv/sysroot/usr/include/gnu/stubs-lp64d.h \
+ /opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/riscv64-unknown-linux-gnu/bits/cpu_defines.h \
+ /opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/stringfwd.h \
+ /opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/memoryfwd.h \
+ /opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/char_traits.h \
+ /opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/stl_algobase.h \
+ /opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/functexcept.h \
+ /opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/exception_defines.h \
+ /opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/cpp_type_traits.h \
+ /opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/ext/type_traits.h \
+ /opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/ext/numeric_traits.h \
+ /opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/stl_pair.h \
+ /opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/move.h \
+ /opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/concept_check.h \
+ /opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/type_traits \
+ /opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/stl_iterator_base_types.h \
+ /opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/stl_iterator_base_funcs.h \
+ /opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/debug/assertions.h \
+ /opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/stl_iterator.h \
+ /opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/ptr_traits.h \
+ /opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/debug/debug.h \
+ /opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/predefined_ops.h \
+ /opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/postypes.h \
+ /opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/cwchar \
+ /opt/riscv/sysroot/usr/include/wchar.h \
+ /opt/riscv/sysroot/usr/include/bits/libc-header-start.h \
+ /opt/riscv/sysroot/usr/include/bits/floatn.h \
+ /opt/riscv/lib/gcc/riscv64-unknown-linux-gnu/7.2.0/include/stddef.h \
+ /opt/riscv/lib/gcc/riscv64-unknown-linux-gnu/7.2.0/include/stdarg.h \
+ /opt/riscv/sysroot/usr/include/bits/wchar.h \
+ /opt/riscv/sysroot/usr/include/bits/types/wint_t.h \
+ /opt/riscv/sysroot/usr/include/bits/types/mbstate_t.h \
+ /opt/riscv/sysroot/usr/include/bits/types/__mbstate_t.h \
+ /opt/riscv/sysroot/usr/include/bits/types/__FILE.h \
+ /opt/riscv/sysroot/usr/include/bits/types/FILE.h \
+ /opt/riscv/sysroot/usr/include/bits/types/locale_t.h \
+ /opt/riscv/sysroot/usr/include/bits/types/__locale_t.h \
+ /opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/cstdint \
+ /opt/riscv/lib/gcc/riscv64-unknown-linux-gnu/7.2.0/include/stdint.h \
+ /opt/riscv/sysroot/usr/include/stdint.h \
+ /opt/riscv/sysroot/usr/include/bits/types.h \
+ /opt/riscv/sysroot/usr/include/bits/typesizes.h \
+ /opt/riscv/sysroot/usr/include/bits/stdint-intn.h \
+ /opt/riscv/sysroot/usr/include/bits/stdint-uintn.h \
+ /opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/allocator.h \
+ /opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/riscv64-unknown-linux-gnu/bits/c++allocator.h \
+ /opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/ext/new_allocator.h \
+ /opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/new \
+ /opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/exception \
+ /opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/exception.h \
+ /opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/exception_ptr.h \
+ /opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/cxxabi_init_exception.h \
+ /opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/typeinfo \
+ /opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/hash_bytes.h \
+ /opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/nested_exception.h \
+ /opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/localefwd.h \
+ /opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/riscv64-unknown-linux-gnu/bits/c++locale.h \
+ /opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/clocale \
+ /opt/riscv/sysroot/usr/include/locale.h \
+ /opt/riscv/sysroot/usr/include/bits/locale.h \
+ /opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/iosfwd \
+ /opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/cctype \
+ /opt/riscv/sysroot/usr/include/ctype.h \
+ /opt/riscv/sysroot/usr/include/endian.h \
+ /opt/riscv/sysroot/usr/include/bits/endian.h \
+ /opt/riscv/sysroot/usr/include/bits/byteswap.h \
+ /opt/riscv/sysroot/usr/include/bits/byteswap-16.h \
+ /opt/riscv/sysroot/usr/include/bits/uintn-identity.h \
+ /opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/ostream_insert.h \
+ /opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/cxxabi_forced.h \
+ /opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/stl_function.h \
+ /opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/backward/binders.h \
+ /opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/range_access.h \
+ /opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/initializer_list \
+ /opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/basic_string.h \
+ /opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/ext/atomicity.h \
+ /opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/riscv64-unknown-linux-gnu/bits/gthr.h \
+ /opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/riscv64-unknown-linux-gnu/bits/gthr-default.h \
+ /opt/riscv/sysroot/usr/include/pthread.h \
+ /opt/riscv/sysroot/usr/include/sched.h \
+ /opt/riscv/sysroot/usr/include/bits/types/time_t.h \
+ /opt/riscv/sysroot/usr/include/bits/types/struct_timespec.h \
+ /opt/riscv/sysroot/usr/include/bits/sched.h \
+ /opt/riscv/sysroot/usr/include/bits/cpu-set.h \
+ /opt/riscv/sysroot/usr/include/time.h \
+ /opt/riscv/sysroot/usr/include/bits/time.h \
+ /opt/riscv/sysroot/usr/include/bits/timex.h \
+ /opt/riscv/sysroot/usr/include/bits/types/struct_timeval.h \
+ /opt/riscv/sysroot/usr/include/bits/types/clock_t.h \
+ /opt/riscv/sysroot/usr/include/bits/types/struct_tm.h \
+ /opt/riscv/sysroot/usr/include/bits/types/clockid_t.h \
+ /opt/riscv/sysroot/usr/include/bits/types/timer_t.h \
+ /opt/riscv/sysroot/usr/include/bits/types/struct_itimerspec.h \
+ /opt/riscv/sysroot/usr/include/bits/pthreadtypes.h \
+ /opt/riscv/sysroot/usr/include/bits/thread-shared-types.h \
+ /opt/riscv/sysroot/usr/include/bits/pthreadtypes-arch.h \
+ /opt/riscv/sysroot/usr/include/bits/setjmp.h \
+ /opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/riscv64-unknown-linux-gnu/bits/atomic_word.h \
+ /opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/ext/alloc_traits.h \
+ /opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/alloc_traits.h \
+ /opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/ext/string_conversions.h \
+ /opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/cstdlib \
+ /opt/riscv/sysroot/usr/include/stdlib.h \
+ /opt/riscv/sysroot/usr/include/bits/waitflags.h \
+ /opt/riscv/sysroot/usr/include/bits/waitstatus.h \
+ /opt/riscv/sysroot/usr/include/sys/types.h \
+ /opt/riscv/sysroot/usr/include/sys/select.h \
+ /opt/riscv/sysroot/usr/include/bits/select.h \
+ /opt/riscv/sysroot/usr/include/bits/types/sigset_t.h \
+ /opt/riscv/sysroot/usr/include/bits/types/__sigset_t.h \
+ /opt/riscv/sysroot/usr/include/sys/sysmacros.h \
+ /opt/riscv/sysroot/usr/include/bits/sysmacros.h \
+ /opt/riscv/sysroot/usr/include/alloca.h \
+ /opt/riscv/sysroot/usr/include/bits/stdlib-bsearch.h \
+ /opt/riscv/sysroot/usr/include/bits/stdlib-float.h \
+ /opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/std_abs.h \
+ /opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/cstdio \
+ /opt/riscv/sysroot/usr/include/stdio.h \
+ /opt/riscv/sysroot/usr/include/libio.h \
+ /opt/riscv/sysroot/usr/include/_G_config.h \
+ /opt/riscv/sysroot/usr/include/bits/stdio_lim.h \
+ /opt/riscv/sysroot/usr/include/bits/sys_errlist.h \
+ /opt/riscv/sysroot/usr/include/bits/stdio.h \
+ /opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/cerrno \
+ /opt/riscv/sysroot/usr/include/errno.h \
+ /opt/riscv/sysroot/usr/include/bits/errno.h \
+ /opt/riscv/sysroot/usr/include/linux/errno.h \
+ /opt/riscv/sysroot/usr/include/asm/errno.h \
+ /opt/riscv/sysroot/usr/include/asm-generic/errno.h \
+ /opt/riscv/sysroot/usr/include/asm-generic/errno-base.h \
+ /opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/functional_hash.h \
+ /opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/basic_string.tcc \
+ include/xapian/keymaker.h \
+ /opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/vector \
+ /opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/stl_construct.h \
+ /opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/stl_uninitialized.h \
+ /opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/stl_vector.h \
+ /opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/stl_bvector.h \
+ /opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/vector.tcc \
  include/xapian/types.h include/xapian/visibility.h \
  include/xapian/version.h include/xapian/termiterator.h \
- /usr/include/c++/5/iterator /usr/include/c++/5/ostream \
- /usr/include/c++/5/ios /usr/include/c++/5/bits/ios_base.h \
- /usr/include/c++/5/bits/locale_classes.h \
- /usr/include/c++/5/bits/locale_classes.tcc /usr/include/c++/5/stdexcept \
- /usr/include/c++/5/streambuf /usr/include/c++/5/bits/streambuf.tcc \
- /usr/include/c++/5/bits/basic_ios.h \
- /usr/include/c++/5/bits/locale_facets.h /usr/include/c++/5/cwctype \
- /usr/include/wctype.h \
- /usr/include/x86_64-linux-gnu/c++/5/bits/ctype_base.h \
- /usr/include/c++/5/bits/streambuf_iterator.h \
- /usr/include/x86_64-linux-gnu/c++/5/bits/ctype_inline.h \
- /usr/include/c++/5/bits/locale_facets.tcc \
- /usr/include/c++/5/bits/basic_ios.tcc \
- /usr/include/c++/5/bits/ostream.tcc /usr/include/c++/5/istream \
- /usr/include/c++/5/bits/istream.tcc \
- /usr/include/c++/5/bits/stream_iterator.h include/xapian/derefwrapper.h \
- include/xapian/positioniterator.h /usr/include/c++/5/map \
- /usr/include/c++/5/bits/stl_tree.h /usr/include/c++/5/bits/stl_map.h \
- /usr/include/c++/5/bits/stl_multimap.h /usr/include/c++/5/set \
- /usr/include/c++/5/bits/stl_set.h /usr/include/c++/5/bits/stl_multiset.h \
+ /opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/iterator \
+ /opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/ostream \
+ /opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/ios \
+ /opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/ios_base.h \
+ /opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/locale_classes.h \
+ /opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/locale_classes.tcc \
+ /opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/system_error \
+ /opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/riscv64-unknown-linux-gnu/bits/error_constants.h \
+ /opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/stdexcept \
+ /opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/streambuf \
+ /opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/streambuf.tcc \
+ /opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/basic_ios.h \
+ /opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/locale_facets.h \
+ /opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/cwctype \
+ /opt/riscv/sysroot/usr/include/wctype.h \
+ /opt/riscv/sysroot/usr/include/bits/wctype-wchar.h \
+ /opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/riscv64-unknown-linux-gnu/bits/ctype_base.h \
+ /opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/streambuf_iterator.h \
+ /opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/riscv64-unknown-linux-gnu/bits/ctype_inline.h \
+ /opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/locale_facets.tcc \
+ /opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/basic_ios.tcc \
+ /opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/ostream.tcc \
+ /opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/istream \
+ /opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/istream.tcc \
+ /opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/stream_iterator.h \
+ include/xapian/derefwrapper.h include/xapian/positioniterator.h \
+ /opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/map \
+ /opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/stl_tree.h \
+ /opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/ext/aligned_buffer.h \
+ /opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/stl_map.h \
+ /opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/tuple \
+ /opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/utility \
+ /opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/stl_relops.h \
+ /opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/array \
+ /opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/uses_allocator.h \
+ /opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/invoke.h \
+ /opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/stl_multimap.h \
+ /opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/set \
+ /opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/stl_set.h \
+ /opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/stl_multiset.h \
  include/xapian/document.h include/xapian/valueiterator.h \
  include/xapian/error.h include/xapian/queryparser.h \
  include/xapian/query.h include/xapian/registry.h common/autoptr.h \
- /usr/include/c++/5/memory /usr/include/c++/5/bits/stl_tempbuf.h \
- /usr/include/c++/5/bits/stl_raw_storage_iter.h \
- /usr/include/c++/5/backward/auto_ptr.h common/debuglog.h \
- common/omassert.h common/serialise.h common/noreturn.h \
+ /opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/memory \
+ /opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/stl_tempbuf.h \
+ /opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/stl_raw_storage_iter.h \
+ /opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/ext/concurrence.h \
+ /opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/unique_ptr.h \
+ /opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/shared_ptr.h \
+ /opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/shared_ptr_base.h \
+ /opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/allocated_ptr.h \
+ /opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/refwrap.h \
+ /opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/shared_ptr_atomic.h \
+ /opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/atomic_base.h \
+ /opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/atomic_lockfree_defines.h \
+ /opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/backward/auto_ptr.h \
+ common/debuglog.h common/omassert.h common/serialise.h common/noreturn.h \
  include/xapian/weight.h common/stringutils.h \
- /usr/include/c++/5/algorithm /usr/include/c++/5/utility \
- /usr/include/c++/5/bits/stl_relops.h /usr/include/c++/5/bits/stl_algo.h \
- /usr/include/c++/5/cstdlib /usr/include/stdlib.h \
- /usr/include/x86_64-linux-gnu/bits/waitflags.h \
- /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
- /usr/include/x86_64-linux-gnu/sys/types.h \
- /usr/include/x86_64-linux-gnu/sys/select.h \
- /usr/include/x86_64-linux-gnu/bits/select.h \
- /usr/include/x86_64-linux-gnu/bits/sigset.h \
- /usr/include/x86_64-linux-gnu/bits/select2.h \
- /usr/include/x86_64-linux-gnu/sys/sysmacros.h /usr/include/alloca.h \
- /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
- /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
- /usr/include/x86_64-linux-gnu/bits/stdlib.h \
- /usr/include/c++/5/bits/algorithmfwd.h \
- /usr/include/c++/5/bits/stl_heap.h /usr/include/c++/5/cstring \
- /usr/include/string.h /usr/include/x86_64-linux-gnu/bits/string3.h \
- common/str.h common/termlist.h /usr/include/c++/5/cfloat \
- /usr/lib/gcc/x86_64-linux-gnu/5/include/float.h /usr/include/c++/5/cmath \
- /usr/include/math.h /usr/include/x86_64-linux-gnu/bits/math-vector.h \
- /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
- /usr/include/x86_64-linux-gnu/bits/huge_val.h \
- /usr/include/x86_64-linux-gnu/bits/huge_valf.h \
- /usr/include/x86_64-linux-gnu/bits/huge_vall.h \
- /usr/include/x86_64-linux-gnu/bits/inf.h \
- /usr/include/x86_64-linux-gnu/bits/nan.h \
- /usr/include/x86_64-linux-gnu/bits/mathdef.h \
- /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
- /usr/include/x86_64-linux-gnu/bits/mathinline.h
+ /opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/algorithm \
+ /opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/stl_algo.h \
+ /opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/algorithmfwd.h \
+ /opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/stl_heap.h \
+ /opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/uniform_int_dist.h \
+ /opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/limits \
+ /opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/cstring \
+ /opt/riscv/sysroot/usr/include/string.h \
+ /opt/riscv/sysroot/usr/include/strings.h common/str.h common/termlist.h \
+ /opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/cfloat \
+ /opt/riscv/lib/gcc/riscv64-unknown-linux-gnu/7.2.0/include/float.h \
+ /opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/cmath \
+ /opt/riscv/sysroot/usr/include/math.h \
+ /opt/riscv/sysroot/usr/include/bits/math-vector.h \
+ /opt/riscv/sysroot/usr/include/bits/libm-simd-decl-stubs.h \
+ /opt/riscv/sysroot/usr/include/bits/huge_val.h \
+ /opt/riscv/sysroot/usr/include/bits/huge_val_flt128.h \
+ /opt/riscv/sysroot/usr/include/bits/huge_valf.h \
+ /opt/riscv/sysroot/usr/include/bits/huge_vall.h \
+ /opt/riscv/sysroot/usr/include/bits/inf.h \
+ /opt/riscv/sysroot/usr/include/bits/nan.h \
+ /opt/riscv/sysroot/usr/include/bits/flt-eval-method.h \
+ /opt/riscv/sysroot/usr/include/bits/fp-logb.h \
+ /opt/riscv/sysroot/usr/include/bits/fp-fast.h \
+ /opt/riscv/sysroot/usr/include/bits/mathcalls-helper-functions.h \
+ /opt/riscv/sysroot/usr/include/bits/mathcalls.h \
+ /opt/riscv/sysroot/usr/include/bits/iscanonical.h \
+ /opt/riscv/sysroot/usr/include/bits/mathinline.h
 
-/usr/include/stdc-predef.h:
+/opt/riscv/sysroot/usr/include/stdc-predef.h:
 
 config.h:
 
@@ -139,171 +250,299 @@ include/xapian/deprecated.h:
 
 include/xapian/enquire.h:
 
-/usr/include/c++/5/string:
+/opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/string:
 
-/usr/include/x86_64-linux-gnu/c++/5/bits/c++config.h:
+/opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/riscv64-unknown-linux-gnu/bits/c++config.h:
 
-/usr/include/x86_64-linux-gnu/c++/5/bits/os_defines.h:
+/opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/riscv64-unknown-linux-gnu/bits/os_defines.h:
 
-/usr/include/features.h:
+/opt/riscv/sysroot/usr/include/features.h:
 
-/usr/include/x86_64-linux-gnu/sys/cdefs.h:
+/opt/riscv/sysroot/usr/include/sys/cdefs.h:
 
-/usr/include/x86_64-linux-gnu/bits/wordsize.h:
+/opt/riscv/sysroot/usr/include/bits/wordsize.h:
 
-/usr/include/x86_64-linux-gnu/gnu/stubs.h:
+/opt/riscv/sysroot/usr/include/bits/long-double.h:
 
-/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
+/opt/riscv/sysroot/usr/include/gnu/stubs.h:
 
-/usr/include/x86_64-linux-gnu/c++/5/bits/cpu_defines.h:
+/opt/riscv/sysroot/usr/include/gnu/stubs-lp64d.h:
 
-/usr/include/c++/5/bits/stringfwd.h:
+/opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/riscv64-unknown-linux-gnu/bits/cpu_defines.h:
 
-/usr/include/c++/5/bits/memoryfwd.h:
+/opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/stringfwd.h:
 
-/usr/include/c++/5/bits/char_traits.h:
+/opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/memoryfwd.h:
 
-/usr/include/c++/5/bits/stl_algobase.h:
+/opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/char_traits.h:
 
-/usr/include/c++/5/bits/functexcept.h:
+/opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/stl_algobase.h:
 
-/usr/include/c++/5/bits/exception_defines.h:
+/opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/functexcept.h:
 
-/usr/include/c++/5/bits/cpp_type_traits.h:
+/opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/exception_defines.h:
 
-/usr/include/c++/5/ext/type_traits.h:
+/opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/cpp_type_traits.h:
 
-/usr/include/c++/5/ext/numeric_traits.h:
+/opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/ext/type_traits.h:
 
-/usr/include/c++/5/bits/stl_pair.h:
+/opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/ext/numeric_traits.h:
 
-/usr/include/c++/5/bits/move.h:
+/opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/stl_pair.h:
 
-/usr/include/c++/5/bits/concept_check.h:
+/opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/move.h:
 
-/usr/include/c++/5/bits/stl_iterator_base_types.h:
+/opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/concept_check.h:
 
-/usr/include/c++/5/bits/stl_iterator_base_funcs.h:
+/opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/type_traits:
 
-/usr/include/c++/5/debug/debug.h:
+/opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/stl_iterator_base_types.h:
 
-/usr/include/c++/5/bits/stl_iterator.h:
+/opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/stl_iterator_base_funcs.h:
 
-/usr/include/c++/5/bits/ptr_traits.h:
+/opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/debug/assertions.h:
 
-/usr/include/c++/5/bits/predefined_ops.h:
+/opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/stl_iterator.h:
 
-/usr/include/c++/5/bits/postypes.h:
+/opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/ptr_traits.h:
 
-/usr/include/c++/5/cwchar:
+/opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/debug/debug.h:
 
-/usr/include/wchar.h:
+/opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/predefined_ops.h:
 
-/usr/include/stdio.h:
+/opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/postypes.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/5/include/stdarg.h:
+/opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/cwchar:
 
-/usr/include/x86_64-linux-gnu/bits/wchar.h:
+/opt/riscv/sysroot/usr/include/wchar.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/5/include/stddef.h:
+/opt/riscv/sysroot/usr/include/bits/libc-header-start.h:
 
-/usr/include/xlocale.h:
+/opt/riscv/sysroot/usr/include/bits/floatn.h:
 
-/usr/include/x86_64-linux-gnu/bits/wchar2.h:
+/opt/riscv/lib/gcc/riscv64-unknown-linux-gnu/7.2.0/include/stddef.h:
 
-/usr/include/c++/5/bits/allocator.h:
+/opt/riscv/lib/gcc/riscv64-unknown-linux-gnu/7.2.0/include/stdarg.h:
 
-/usr/include/x86_64-linux-gnu/c++/5/bits/c++allocator.h:
+/opt/riscv/sysroot/usr/include/bits/wchar.h:
 
-/usr/include/c++/5/ext/new_allocator.h:
+/opt/riscv/sysroot/usr/include/bits/types/wint_t.h:
 
-/usr/include/c++/5/new:
+/opt/riscv/sysroot/usr/include/bits/types/mbstate_t.h:
 
-/usr/include/c++/5/exception:
+/opt/riscv/sysroot/usr/include/bits/types/__mbstate_t.h:
 
-/usr/include/c++/5/bits/atomic_lockfree_defines.h:
+/opt/riscv/sysroot/usr/include/bits/types/__FILE.h:
 
-/usr/include/c++/5/bits/localefwd.h:
+/opt/riscv/sysroot/usr/include/bits/types/FILE.h:
 
-/usr/include/x86_64-linux-gnu/c++/5/bits/c++locale.h:
+/opt/riscv/sysroot/usr/include/bits/types/locale_t.h:
 
-/usr/include/c++/5/clocale:
+/opt/riscv/sysroot/usr/include/bits/types/__locale_t.h:
 
-/usr/include/locale.h:
+/opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/cstdint:
 
-/usr/include/x86_64-linux-gnu/bits/locale.h:
+/opt/riscv/lib/gcc/riscv64-unknown-linux-gnu/7.2.0/include/stdint.h:
 
-/usr/include/c++/5/iosfwd:
+/opt/riscv/sysroot/usr/include/stdint.h:
 
-/usr/include/c++/5/cctype:
+/opt/riscv/sysroot/usr/include/bits/types.h:
 
-/usr/include/ctype.h:
+/opt/riscv/sysroot/usr/include/bits/typesizes.h:
 
-/usr/include/x86_64-linux-gnu/bits/types.h:
+/opt/riscv/sysroot/usr/include/bits/stdint-intn.h:
 
-/usr/include/x86_64-linux-gnu/bits/typesizes.h:
+/opt/riscv/sysroot/usr/include/bits/stdint-uintn.h:
 
-/usr/include/endian.h:
+/opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/allocator.h:
 
-/usr/include/x86_64-linux-gnu/bits/endian.h:
+/opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/riscv64-unknown-linux-gnu/bits/c++allocator.h:
 
-/usr/include/x86_64-linux-gnu/bits/byteswap.h:
+/opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/ext/new_allocator.h:
 
-/usr/include/x86_64-linux-gnu/bits/byteswap-16.h:
+/opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/new:
 
-/usr/include/c++/5/bits/ostream_insert.h:
+/opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/exception:
 
-/usr/include/c++/5/bits/cxxabi_forced.h:
+/opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/exception.h:
 
-/usr/include/c++/5/bits/stl_function.h:
+/opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/exception_ptr.h:
 
-/usr/include/c++/5/backward/binders.h:
+/opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/cxxabi_init_exception.h:
 
-/usr/include/c++/5/bits/range_access.h:
+/opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/typeinfo:
 
-/usr/include/c++/5/bits/basic_string.h:
+/opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/hash_bytes.h:
 
-/usr/include/c++/5/ext/atomicity.h:
+/opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/nested_exception.h:
 
-/usr/include/x86_64-linux-gnu/c++/5/bits/gthr.h:
+/opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/localefwd.h:
 
-/usr/include/x86_64-linux-gnu/c++/5/bits/gthr-default.h:
+/opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/riscv64-unknown-linux-gnu/bits/c++locale.h:
 
-/usr/include/pthread.h:
+/opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/clocale:
 
-/usr/include/sched.h:
+/opt/riscv/sysroot/usr/include/locale.h:
 
-/usr/include/time.h:
+/opt/riscv/sysroot/usr/include/bits/locale.h:
 
-/usr/include/x86_64-linux-gnu/bits/sched.h:
+/opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/iosfwd:
 
-/usr/include/x86_64-linux-gnu/bits/time.h:
+/opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/cctype:
 
-/usr/include/x86_64-linux-gnu/bits/timex.h:
+/opt/riscv/sysroot/usr/include/ctype.h:
 
-/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
+/opt/riscv/sysroot/usr/include/endian.h:
 
-/usr/include/x86_64-linux-gnu/bits/setjmp.h:
+/opt/riscv/sysroot/usr/include/bits/endian.h:
 
-/usr/include/x86_64-linux-gnu/c++/5/bits/atomic_word.h:
+/opt/riscv/sysroot/usr/include/bits/byteswap.h:
 
-/usr/include/c++/5/ext/alloc_traits.h:
+/opt/riscv/sysroot/usr/include/bits/byteswap-16.h:
 
-/usr/include/c++/5/bits/basic_string.tcc:
+/opt/riscv/sysroot/usr/include/bits/uintn-identity.h:
+
+/opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/ostream_insert.h:
+
+/opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/cxxabi_forced.h:
+
+/opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/stl_function.h:
+
+/opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/backward/binders.h:
+
+/opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/range_access.h:
+
+/opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/initializer_list:
+
+/opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/basic_string.h:
+
+/opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/ext/atomicity.h:
+
+/opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/riscv64-unknown-linux-gnu/bits/gthr.h:
+
+/opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/riscv64-unknown-linux-gnu/bits/gthr-default.h:
+
+/opt/riscv/sysroot/usr/include/pthread.h:
+
+/opt/riscv/sysroot/usr/include/sched.h:
+
+/opt/riscv/sysroot/usr/include/bits/types/time_t.h:
+
+/opt/riscv/sysroot/usr/include/bits/types/struct_timespec.h:
+
+/opt/riscv/sysroot/usr/include/bits/sched.h:
+
+/opt/riscv/sysroot/usr/include/bits/cpu-set.h:
+
+/opt/riscv/sysroot/usr/include/time.h:
+
+/opt/riscv/sysroot/usr/include/bits/time.h:
+
+/opt/riscv/sysroot/usr/include/bits/timex.h:
+
+/opt/riscv/sysroot/usr/include/bits/types/struct_timeval.h:
+
+/opt/riscv/sysroot/usr/include/bits/types/clock_t.h:
+
+/opt/riscv/sysroot/usr/include/bits/types/struct_tm.h:
+
+/opt/riscv/sysroot/usr/include/bits/types/clockid_t.h:
+
+/opt/riscv/sysroot/usr/include/bits/types/timer_t.h:
+
+/opt/riscv/sysroot/usr/include/bits/types/struct_itimerspec.h:
+
+/opt/riscv/sysroot/usr/include/bits/pthreadtypes.h:
+
+/opt/riscv/sysroot/usr/include/bits/thread-shared-types.h:
+
+/opt/riscv/sysroot/usr/include/bits/pthreadtypes-arch.h:
+
+/opt/riscv/sysroot/usr/include/bits/setjmp.h:
+
+/opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/riscv64-unknown-linux-gnu/bits/atomic_word.h:
+
+/opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/ext/alloc_traits.h:
+
+/opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/alloc_traits.h:
+
+/opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/ext/string_conversions.h:
+
+/opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/cstdlib:
+
+/opt/riscv/sysroot/usr/include/stdlib.h:
+
+/opt/riscv/sysroot/usr/include/bits/waitflags.h:
+
+/opt/riscv/sysroot/usr/include/bits/waitstatus.h:
+
+/opt/riscv/sysroot/usr/include/sys/types.h:
+
+/opt/riscv/sysroot/usr/include/sys/select.h:
+
+/opt/riscv/sysroot/usr/include/bits/select.h:
+
+/opt/riscv/sysroot/usr/include/bits/types/sigset_t.h:
+
+/opt/riscv/sysroot/usr/include/bits/types/__sigset_t.h:
+
+/opt/riscv/sysroot/usr/include/sys/sysmacros.h:
+
+/opt/riscv/sysroot/usr/include/bits/sysmacros.h:
+
+/opt/riscv/sysroot/usr/include/alloca.h:
+
+/opt/riscv/sysroot/usr/include/bits/stdlib-bsearch.h:
+
+/opt/riscv/sysroot/usr/include/bits/stdlib-float.h:
+
+/opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/std_abs.h:
+
+/opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/cstdio:
+
+/opt/riscv/sysroot/usr/include/stdio.h:
+
+/opt/riscv/sysroot/usr/include/libio.h:
+
+/opt/riscv/sysroot/usr/include/_G_config.h:
+
+/opt/riscv/sysroot/usr/include/bits/stdio_lim.h:
+
+/opt/riscv/sysroot/usr/include/bits/sys_errlist.h:
+
+/opt/riscv/sysroot/usr/include/bits/stdio.h:
+
+/opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/cerrno:
+
+/opt/riscv/sysroot/usr/include/errno.h:
+
+/opt/riscv/sysroot/usr/include/bits/errno.h:
+
+/opt/riscv/sysroot/usr/include/linux/errno.h:
+
+/opt/riscv/sysroot/usr/include/asm/errno.h:
+
+/opt/riscv/sysroot/usr/include/asm-generic/errno.h:
+
+/opt/riscv/sysroot/usr/include/asm-generic/errno-base.h:
+
+/opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/functional_hash.h:
+
+/opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/basic_string.tcc:
 
 include/xapian/keymaker.h:
 
-/usr/include/c++/5/vector:
+/opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/vector:
 
-/usr/include/c++/5/bits/stl_construct.h:
+/opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/stl_construct.h:
 
-/usr/include/c++/5/bits/stl_uninitialized.h:
+/opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/stl_uninitialized.h:
 
-/usr/include/c++/5/bits/stl_vector.h:
+/opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/stl_vector.h:
 
-/usr/include/c++/5/bits/stl_bvector.h:
+/opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/stl_bvector.h:
 
-/usr/include/c++/5/bits/vector.tcc:
+/opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/vector.tcc:
 
 include/xapian/types.h:
 
@@ -313,67 +552,87 @@ include/xapian/version.h:
 
 include/xapian/termiterator.h:
 
-/usr/include/c++/5/iterator:
+/opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/iterator:
 
-/usr/include/c++/5/ostream:
+/opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/ostream:
 
-/usr/include/c++/5/ios:
+/opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/ios:
 
-/usr/include/c++/5/bits/ios_base.h:
+/opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/ios_base.h:
 
-/usr/include/c++/5/bits/locale_classes.h:
+/opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/locale_classes.h:
 
-/usr/include/c++/5/bits/locale_classes.tcc:
+/opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/locale_classes.tcc:
 
-/usr/include/c++/5/stdexcept:
+/opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/system_error:
 
-/usr/include/c++/5/streambuf:
+/opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/riscv64-unknown-linux-gnu/bits/error_constants.h:
 
-/usr/include/c++/5/bits/streambuf.tcc:
+/opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/stdexcept:
 
-/usr/include/c++/5/bits/basic_ios.h:
+/opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/streambuf:
 
-/usr/include/c++/5/bits/locale_facets.h:
+/opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/streambuf.tcc:
 
-/usr/include/c++/5/cwctype:
+/opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/basic_ios.h:
 
-/usr/include/wctype.h:
+/opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/locale_facets.h:
 
-/usr/include/x86_64-linux-gnu/c++/5/bits/ctype_base.h:
+/opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/cwctype:
 
-/usr/include/c++/5/bits/streambuf_iterator.h:
+/opt/riscv/sysroot/usr/include/wctype.h:
 
-/usr/include/x86_64-linux-gnu/c++/5/bits/ctype_inline.h:
+/opt/riscv/sysroot/usr/include/bits/wctype-wchar.h:
 
-/usr/include/c++/5/bits/locale_facets.tcc:
+/opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/riscv64-unknown-linux-gnu/bits/ctype_base.h:
 
-/usr/include/c++/5/bits/basic_ios.tcc:
+/opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/streambuf_iterator.h:
 
-/usr/include/c++/5/bits/ostream.tcc:
+/opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/riscv64-unknown-linux-gnu/bits/ctype_inline.h:
 
-/usr/include/c++/5/istream:
+/opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/locale_facets.tcc:
 
-/usr/include/c++/5/bits/istream.tcc:
+/opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/basic_ios.tcc:
 
-/usr/include/c++/5/bits/stream_iterator.h:
+/opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/ostream.tcc:
+
+/opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/istream:
+
+/opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/istream.tcc:
+
+/opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/stream_iterator.h:
 
 include/xapian/derefwrapper.h:
 
 include/xapian/positioniterator.h:
 
-/usr/include/c++/5/map:
+/opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/map:
 
-/usr/include/c++/5/bits/stl_tree.h:
+/opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/stl_tree.h:
 
-/usr/include/c++/5/bits/stl_map.h:
+/opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/ext/aligned_buffer.h:
 
-/usr/include/c++/5/bits/stl_multimap.h:
+/opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/stl_map.h:
 
-/usr/include/c++/5/set:
+/opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/tuple:
 
-/usr/include/c++/5/bits/stl_set.h:
+/opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/utility:
 
-/usr/include/c++/5/bits/stl_multiset.h:
+/opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/stl_relops.h:
+
+/opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/array:
+
+/opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/uses_allocator.h:
+
+/opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/invoke.h:
+
+/opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/stl_multimap.h:
+
+/opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/set:
+
+/opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/stl_set.h:
+
+/opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/stl_multiset.h:
 
 include/xapian/document.h:
 
@@ -389,13 +648,31 @@ include/xapian/registry.h:
 
 common/autoptr.h:
 
-/usr/include/c++/5/memory:
+/opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/memory:
 
-/usr/include/c++/5/bits/stl_tempbuf.h:
+/opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/stl_tempbuf.h:
 
-/usr/include/c++/5/bits/stl_raw_storage_iter.h:
+/opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/stl_raw_storage_iter.h:
 
-/usr/include/c++/5/backward/auto_ptr.h:
+/opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/ext/concurrence.h:
+
+/opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/unique_ptr.h:
+
+/opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/shared_ptr.h:
+
+/opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/shared_ptr_base.h:
+
+/opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/allocated_ptr.h:
+
+/opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/refwrap.h:
+
+/opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/shared_ptr_atomic.h:
+
+/opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/atomic_base.h:
+
+/opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/atomic_lockfree_defines.h:
+
+/opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/backward/auto_ptr.h:
 
 common/debuglog.h:
 
@@ -409,80 +686,62 @@ include/xapian/weight.h:
 
 common/stringutils.h:
 
-/usr/include/c++/5/algorithm:
+/opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/algorithm:
 
-/usr/include/c++/5/utility:
+/opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/stl_algo.h:
 
-/usr/include/c++/5/bits/stl_relops.h:
+/opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/algorithmfwd.h:
 
-/usr/include/c++/5/bits/stl_algo.h:
+/opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/stl_heap.h:
 
-/usr/include/c++/5/cstdlib:
+/opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/bits/uniform_int_dist.h:
 
-/usr/include/stdlib.h:
+/opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/limits:
 
-/usr/include/x86_64-linux-gnu/bits/waitflags.h:
+/opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/cstring:
 
-/usr/include/x86_64-linux-gnu/bits/waitstatus.h:
+/opt/riscv/sysroot/usr/include/string.h:
 
-/usr/include/x86_64-linux-gnu/sys/types.h:
-
-/usr/include/x86_64-linux-gnu/sys/select.h:
-
-/usr/include/x86_64-linux-gnu/bits/select.h:
-
-/usr/include/x86_64-linux-gnu/bits/sigset.h:
-
-/usr/include/x86_64-linux-gnu/bits/select2.h:
-
-/usr/include/x86_64-linux-gnu/sys/sysmacros.h:
-
-/usr/include/alloca.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdlib.h:
-
-/usr/include/c++/5/bits/algorithmfwd.h:
-
-/usr/include/c++/5/bits/stl_heap.h:
-
-/usr/include/c++/5/cstring:
-
-/usr/include/string.h:
-
-/usr/include/x86_64-linux-gnu/bits/string3.h:
+/opt/riscv/sysroot/usr/include/strings.h:
 
 common/str.h:
 
 common/termlist.h:
 
-/usr/include/c++/5/cfloat:
+/opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/cfloat:
 
-/usr/lib/gcc/x86_64-linux-gnu/5/include/float.h:
+/opt/riscv/lib/gcc/riscv64-unknown-linux-gnu/7.2.0/include/float.h:
 
-/usr/include/c++/5/cmath:
+/opt/riscv/riscv64-unknown-linux-gnu/include/c++/7.2.0/cmath:
 
-/usr/include/math.h:
+/opt/riscv/sysroot/usr/include/math.h:
 
-/usr/include/x86_64-linux-gnu/bits/math-vector.h:
+/opt/riscv/sysroot/usr/include/bits/math-vector.h:
 
-/usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h:
+/opt/riscv/sysroot/usr/include/bits/libm-simd-decl-stubs.h:
 
-/usr/include/x86_64-linux-gnu/bits/huge_val.h:
+/opt/riscv/sysroot/usr/include/bits/huge_val.h:
 
-/usr/include/x86_64-linux-gnu/bits/huge_valf.h:
+/opt/riscv/sysroot/usr/include/bits/huge_val_flt128.h:
 
-/usr/include/x86_64-linux-gnu/bits/huge_vall.h:
+/opt/riscv/sysroot/usr/include/bits/huge_valf.h:
 
-/usr/include/x86_64-linux-gnu/bits/inf.h:
+/opt/riscv/sysroot/usr/include/bits/huge_vall.h:
 
-/usr/include/x86_64-linux-gnu/bits/nan.h:
+/opt/riscv/sysroot/usr/include/bits/inf.h:
 
-/usr/include/x86_64-linux-gnu/bits/mathdef.h:
+/opt/riscv/sysroot/usr/include/bits/nan.h:
 
-/usr/include/x86_64-linux-gnu/bits/mathcalls.h:
+/opt/riscv/sysroot/usr/include/bits/flt-eval-method.h:
 
-/usr/include/x86_64-linux-gnu/bits/mathinline.h:
+/opt/riscv/sysroot/usr/include/bits/fp-logb.h:
+
+/opt/riscv/sysroot/usr/include/bits/fp-fast.h:
+
+/opt/riscv/sysroot/usr/include/bits/mathcalls-helper-functions.h:
+
+/opt/riscv/sysroot/usr/include/bits/mathcalls.h:
+
+/opt/riscv/sysroot/usr/include/bits/iscanonical.h:
+
+/opt/riscv/sysroot/usr/include/bits/mathinline.h:

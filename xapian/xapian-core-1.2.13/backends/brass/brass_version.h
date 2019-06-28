@@ -25,7 +25,7 @@
 #include <string>
 
 #include "common/safeuuid.h"
-#include "uuid/uuid.h"
+
 /** The BrassVersion class manages the "iambrass" file.
  *
  *  The "iambrass" file (currently) contains a "magic" string identifying

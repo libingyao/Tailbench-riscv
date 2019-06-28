@@ -38,7 +38,7 @@
 #include <algorithm>
 #include <string>
 
-#include <zlib.h>
+#include "zlib.h"
 
 #define DONT_COMPRESS -1
 

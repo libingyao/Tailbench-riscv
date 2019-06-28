@@ -1,1 +1,6 @@
-# dummy
+common/debuglog.lo: common/debuglog.cc \
+ /opt/riscv/sysroot/usr/include/stdc-predef.h config.h
+
+/opt/riscv/sysroot/usr/include/stdc-predef.h:
+
+config.h:

@@ -1,1 +1,6 @@
-# dummy
+common/msvc_posix_wrapper.lo: common/msvc_posix_wrapper.cc \
+ /opt/riscv/sysroot/usr/include/stdc-predef.h config.h
+
+/opt/riscv/sysroot/usr/include/stdc-predef.h:
+
+config.h:

@@ -1,1 +1,6 @@
-# dummy
+common/safe.lo: common/safe.cc \
+ /opt/riscv/sysroot/usr/include/stdc-predef.h config.h
+
+/opt/riscv/sysroot/usr/include/stdc-predef.h:
+
+config.h:

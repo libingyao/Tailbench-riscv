@@ -94,7 +94,7 @@ original_CXX=
 if test -n "$CXX" ; then
   original_CXX="CXX=riscv64-unknown-linux-gnu-g++"
 elif test -n "$CCC" ; then
-  original_CXX="CCC=riscv64-unknown-linux-gnu-gcc"
+  original_CXX="CXX=riscv64-unknown-linux-gnu-gcc"
 fi
 
 dnl See HACKING document for details of the reasons for required versions.
@@ -267,10 +267,10 @@ WARNING_CXXFLAGS=
 ANSI_CXXFLAGS=
 AC_MSG_CHECKING([for $CXX options to enable ANSI C++ mode])
 if test yes = "$GXX"; then
-  compiler=riscv64-unknown-linux-gnu-gcc
+  compiler=gcc
   AC_MSG_RESULT([none required])
 else
-  compiler=unknown
+  compiler=riscv64-unknown-linux-gnu-gcc
   dnl Some C++ compilers need a special switch to select ANSI C++ mode.  Do
   dnl this early in configure so such settings are used for other tests.
   case $CXX in

@@ -54,8 +54,7 @@ inline void uuid_unparse_lower(uuid_t uu, char *out) {
 #else
 
 // FreeBSD/NetBSD UUID API.
-//# include <uuid.h>
-# include <uuid/uuid.h>
+# include <uuid.h>
 # include <cstring>
 # include <exception>
 
