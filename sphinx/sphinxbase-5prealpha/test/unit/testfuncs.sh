@@ -1,7 +1,7 @@
 # Utility functions and parameters for regression tests
 
 # Predefined directories you may need
-# Stupid broken CMU Facilities autoconf doesn't do /home/parallels/Documents/tailbench-v0.9/sphinx/sphinxbase-5prealpha
+# Stupid broken CMU Facilities autoconf doesn't do /home/parallels/demo/sphinx/sphinxbase-5prealpha
 builddir=../"../.."
 sourcedir=../"../.."
 tests=$sourcedir/test

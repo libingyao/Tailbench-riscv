@@ -7,9 +7,9 @@ blkarray_list.lo: blkarray_list.c \
  /opt/riscv/sysroot/usr/include/bits/long-double.h \
  /opt/riscv/sysroot/usr/include/gnu/stubs.h \
  /opt/riscv/sysroot/usr/include/gnu/stubs-lp64d.h \
- /home/parallels/Documents/tailbench-v0.9/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/prim_type.h \
- /home/parallels/Documents/tailbench-v0.9/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinx_config.h \
- /home/parallels/Documents/tailbench-v0.9/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/err.h \
+ /home/parallels/demo/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/prim_type.h \
+ /home/parallels/demo/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinx_config.h \
+ /home/parallels/demo/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/err.h \
  /opt/riscv/lib/gcc/riscv64-unknown-linux-gnu/7.2.0/include/stdarg.h \
  /opt/riscv/sysroot/usr/include/stdio.h \
  /opt/riscv/sysroot/usr/include/bits/libc-header-start.h \
@@ -59,8 +59,8 @@ blkarray_list.lo: blkarray_list.c \
  /opt/riscv/sysroot/usr/include/asm/errno.h \
  /opt/riscv/sysroot/usr/include/asm-generic/errno.h \
  /opt/riscv/sysroot/usr/include/asm-generic/errno-base.h \
- /home/parallels/Documents/tailbench-v0.9/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/sphinxbase_export.h \
- /home/parallels/Documents/tailbench-v0.9/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/ckd_alloc.h \
+ /home/parallels/demo/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/sphinxbase_export.h \
+ /home/parallels/demo/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/ckd_alloc.h \
  /opt/riscv/sysroot/usr/include/setjmp.h \
  /opt/riscv/sysroot/usr/include/bits/setjmp.h blkarray_list.h
 
@@ -80,11 +80,11 @@ blkarray_list.lo: blkarray_list.c \
 
 /opt/riscv/sysroot/usr/include/gnu/stubs-lp64d.h:
 
-/home/parallels/Documents/tailbench-v0.9/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/prim_type.h:
+/home/parallels/demo/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/prim_type.h:
 
-/home/parallels/Documents/tailbench-v0.9/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinx_config.h:
+/home/parallels/demo/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinx_config.h:
 
-/home/parallels/Documents/tailbench-v0.9/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/err.h:
+/home/parallels/demo/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/err.h:
 
 /opt/riscv/lib/gcc/riscv64-unknown-linux-gnu/7.2.0/include/stdarg.h:
 
@@ -184,9 +184,9 @@ blkarray_list.lo: blkarray_list.c \
 
 /opt/riscv/sysroot/usr/include/asm-generic/errno-base.h:
 
-/home/parallels/Documents/tailbench-v0.9/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/sphinxbase_export.h:
+/home/parallels/demo/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/sphinxbase_export.h:
 
-/home/parallels/Documents/tailbench-v0.9/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/ckd_alloc.h:
+/home/parallels/demo/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/ckd_alloc.h:
 
 /opt/riscv/sysroot/usr/include/setjmp.h:
 

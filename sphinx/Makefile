@@ -1,4 +1,4 @@
-CXX = riscv64-unknown-linux-gnu-g++
+CXX = riscv64-unknown-linux-gnu-gcc
 
 TBENCHDIR = ../harness
 TBENCH_NETWORKED_SERVER_OBJS = $(TBENCHDIR)/tbench_server_networked.o
@@ -7,11 +7,10 @@ TBENCH_NETWORKED_CLIENT_OBJS = $(TBENCHDIR)/client.o \
 TBENCH_INTEGRATED_OBJS = $(TBENCHDIR)/client.o \
 						 $(TBENCHDIR)/tbench_server_integrated.o
 
-CXXFLAGS =  -DMODELDIR=\"`pkg-config --variable=modeldir pocketsphinx`\" \
-                     `pkg-config --cflags --libs pocketsphinx sphinxbase` \
-                       -I$(TBENCHDIR) -g -O3 -std=c++0x 
-
-LDFLAGS = 
+CXXFLAGS = -DMODELDIR=\"`pkg-config --variable=modeldir pocketsphinx`\" \
+		     `pkg-config --cflags --libs pocketsphinx sphinxbase` \
+			 -I$(TBENCHDIR) 
+LDFLAGS =
 
 .PHONY : all clean run zsim
 

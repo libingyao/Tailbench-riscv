@@ -13,7 +13,7 @@ ngram_search_fwdflat.lo: ngram_search_fwdflat.c \
  /opt/riscv/sysroot/usr/include/bits/types/__locale_t.h \
  /opt/riscv/sysroot/usr/include/strings.h \
  /opt/riscv/sysroot/usr/include/assert.h \
- /home/parallels/Documents/tailbench-v0.9/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/ckd_alloc.h \
+ /home/parallels/demo/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/ckd_alloc.h \
  /opt/riscv/sysroot/usr/include/stdlib.h \
  /opt/riscv/sysroot/usr/include/bits/waitflags.h \
  /opt/riscv/sysroot/usr/include/bits/waitstatus.h \
@@ -47,11 +47,11 @@ ngram_search_fwdflat.lo: ngram_search_fwdflat.c \
  /opt/riscv/sysroot/usr/include/bits/stdlib-float.h \
  /opt/riscv/sysroot/usr/include/setjmp.h \
  /opt/riscv/sysroot/usr/include/bits/setjmp.h \
- /home/parallels/Documents/tailbench-v0.9/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/sphinxbase_export.h \
- /home/parallels/Documents/tailbench-v0.9/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/prim_type.h \
- /home/parallels/Documents/tailbench-v0.9/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinx_config.h \
- /home/parallels/Documents/tailbench-v0.9/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/listelem_alloc.h \
- /home/parallels/Documents/tailbench-v0.9/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/err.h \
+ /home/parallels/demo/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/sphinxbase_export.h \
+ /home/parallels/demo/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/prim_type.h \
+ /home/parallels/demo/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinx_config.h \
+ /home/parallels/demo/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/listelem_alloc.h \
+ /home/parallels/demo/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/err.h \
  /opt/riscv/lib/gcc/riscv64-unknown-linux-gnu/7.2.0/include/stdarg.h \
  /opt/riscv/sysroot/usr/include/stdio.h \
  /opt/riscv/sysroot/usr/include/bits/types/__FILE.h \
@@ -68,13 +68,13 @@ ngram_search_fwdflat.lo: ngram_search_fwdflat.c \
  /opt/riscv/sysroot/usr/include/asm/errno.h \
  /opt/riscv/sysroot/usr/include/asm-generic/errno.h \
  /opt/riscv/sysroot/usr/include/asm-generic/errno-base.h ngram_search.h \
- /home/parallels/Documents/tailbench-v0.9/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/cmd_ln.h \
- /home/parallels/Documents/tailbench-v0.9/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/logmath.h \
- /home/parallels/Documents/tailbench-v0.9/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/ngram_model.h \
- /home/parallels/Documents/tailbench-v0.9/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/mmio.h \
+ /home/parallels/demo/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/cmd_ln.h \
+ /home/parallels/demo/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/logmath.h \
+ /home/parallels/demo/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/ngram_model.h \
+ /home/parallels/demo/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/mmio.h \
  pocketsphinx_internal.h \
- /home/parallels/Documents/tailbench-v0.9/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/fe.h \
- /home/parallels/Documents/tailbench-v0.9/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/fixpoint.h \
+ /home/parallels/demo/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/fe.h \
+ /home/parallels/demo/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/fixpoint.h \
  /opt/riscv/lib/gcc/riscv64-unknown-linux-gnu/7.2.0/include-fixed/limits.h \
  /opt/riscv/lib/gcc/riscv64-unknown-linux-gnu/7.2.0/include-fixed/syslimits.h \
  /opt/riscv/sysroot/usr/include/limits.h \
@@ -82,17 +82,17 @@ ngram_search_fwdflat.lo: ngram_search_fwdflat.c \
  /opt/riscv/sysroot/usr/include/bits/local_lim.h \
  /opt/riscv/sysroot/usr/include/linux/limits.h \
  /opt/riscv/sysroot/usr/include/bits/posix2_lim.h \
- /home/parallels/Documents/tailbench-v0.9/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/feat.h \
- /home/parallels/Documents/tailbench-v0.9/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/cmn.h \
- /home/parallels/Documents/tailbench-v0.9/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/agc.h \
- /home/parallels/Documents/tailbench-v0.9/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/hash_table.h \
- /home/parallels/Documents/tailbench-v0.9/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/glist.h \
- /home/parallels/Documents/tailbench-v0.9/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/profile.h \
+ /home/parallels/demo/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/feat.h \
+ /home/parallels/demo/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/cmn.h \
+ /home/parallels/demo/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/agc.h \
+ /home/parallels/demo/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/hash_table.h \
+ /home/parallels/demo/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/glist.h \
+ /home/parallels/demo/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/profile.h \
  ../../include/pocketsphinx.h ../../include/pocketsphinx_export.h \
  ../../include/cmdln_macro.h ../../include/ps_lattice.h \
  ../../include/ps_mllr.h ../../include/ps_search.h \
- /home/parallels/Documents/tailbench-v0.9/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/fsg_model.h \
- /home/parallels/Documents/tailbench-v0.9/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/bitvec.h \
+ /home/parallels/demo/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/fsg_model.h \
+ /home/parallels/demo/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/bitvec.h \
  acmod.h bin_mdef.h mdef.h tmat.h hmm.h dict.h s3types.h \
  /opt/riscv/lib/gcc/riscv64-unknown-linux-gnu/7.2.0/include/float.h \
  dict2pid.h ps_lattice_internal.h
@@ -125,7 +125,7 @@ ngram_search_fwdflat.lo: ngram_search_fwdflat.c \
 
 /opt/riscv/sysroot/usr/include/assert.h:
 
-/home/parallels/Documents/tailbench-v0.9/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/ckd_alloc.h:
+/home/parallels/demo/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/ckd_alloc.h:
 
 /opt/riscv/sysroot/usr/include/stdlib.h:
 
@@ -193,15 +193,15 @@ ngram_search_fwdflat.lo: ngram_search_fwdflat.c \
 
 /opt/riscv/sysroot/usr/include/bits/setjmp.h:
 
-/home/parallels/Documents/tailbench-v0.9/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/sphinxbase_export.h:
+/home/parallels/demo/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/sphinxbase_export.h:
 
-/home/parallels/Documents/tailbench-v0.9/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/prim_type.h:
+/home/parallels/demo/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/prim_type.h:
 
-/home/parallels/Documents/tailbench-v0.9/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinx_config.h:
+/home/parallels/demo/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinx_config.h:
 
-/home/parallels/Documents/tailbench-v0.9/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/listelem_alloc.h:
+/home/parallels/demo/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/listelem_alloc.h:
 
-/home/parallels/Documents/tailbench-v0.9/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/err.h:
+/home/parallels/demo/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/err.h:
 
 /opt/riscv/lib/gcc/riscv64-unknown-linux-gnu/7.2.0/include/stdarg.h:
 
@@ -237,19 +237,19 @@ ngram_search_fwdflat.lo: ngram_search_fwdflat.c \
 
 ngram_search.h:
 
-/home/parallels/Documents/tailbench-v0.9/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/cmd_ln.h:
+/home/parallels/demo/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/cmd_ln.h:
 
-/home/parallels/Documents/tailbench-v0.9/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/logmath.h:
+/home/parallels/demo/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/logmath.h:
 
-/home/parallels/Documents/tailbench-v0.9/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/ngram_model.h:
+/home/parallels/demo/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/ngram_model.h:
 
-/home/parallels/Documents/tailbench-v0.9/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/mmio.h:
+/home/parallels/demo/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/mmio.h:
 
 pocketsphinx_internal.h:
 
-/home/parallels/Documents/tailbench-v0.9/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/fe.h:
+/home/parallels/demo/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/fe.h:
 
-/home/parallels/Documents/tailbench-v0.9/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/fixpoint.h:
+/home/parallels/demo/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/fixpoint.h:
 
 /opt/riscv/lib/gcc/riscv64-unknown-linux-gnu/7.2.0/include-fixed/limits.h:
 
@@ -265,17 +265,17 @@ pocketsphinx_internal.h:
 
 /opt/riscv/sysroot/usr/include/bits/posix2_lim.h:
 
-/home/parallels/Documents/tailbench-v0.9/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/feat.h:
+/home/parallels/demo/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/feat.h:
 
-/home/parallels/Documents/tailbench-v0.9/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/cmn.h:
+/home/parallels/demo/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/cmn.h:
 
-/home/parallels/Documents/tailbench-v0.9/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/agc.h:
+/home/parallels/demo/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/agc.h:
 
-/home/parallels/Documents/tailbench-v0.9/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/hash_table.h:
+/home/parallels/demo/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/hash_table.h:
 
-/home/parallels/Documents/tailbench-v0.9/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/glist.h:
+/home/parallels/demo/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/glist.h:
 
-/home/parallels/Documents/tailbench-v0.9/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/profile.h:
+/home/parallels/demo/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/profile.h:
 
 ../../include/pocketsphinx.h:
 
@@ -289,9 +289,9 @@ pocketsphinx_internal.h:
 
 ../../include/ps_search.h:
 
-/home/parallels/Documents/tailbench-v0.9/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/fsg_model.h:
+/home/parallels/demo/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/fsg_model.h:
 
-/home/parallels/Documents/tailbench-v0.9/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/bitvec.h:
+/home/parallels/demo/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/bitvec.h:
 
 acmod.h:
 

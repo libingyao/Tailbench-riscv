@@ -13,6 +13,7 @@ logmath.lo: logmath.c /opt/riscv/sysroot/usr/include/stdc-predef.h \
  /opt/riscv/sysroot/usr/include/bits/libm-simd-decl-stubs.h \
  /opt/riscv/sysroot/usr/include/bits/floatn.h \
  /opt/riscv/sysroot/usr/include/bits/huge_val.h \
+ /opt/riscv/sysroot/usr/include/bits/huge_val_flt128.h \
  /opt/riscv/sysroot/usr/include/bits/huge_valf.h \
  /opt/riscv/sysroot/usr/include/bits/huge_vall.h \
  /opt/riscv/sysroot/usr/include/bits/inf.h \
@@ -22,6 +23,7 @@ logmath.lo: logmath.c /opt/riscv/sysroot/usr/include/stdc-predef.h \
  /opt/riscv/sysroot/usr/include/bits/fp-fast.h \
  /opt/riscv/sysroot/usr/include/bits/mathcalls-helper-functions.h \
  /opt/riscv/sysroot/usr/include/bits/mathcalls.h \
+ /opt/riscv/sysroot/usr/include/bits/iscanonical.h \
  /opt/riscv/sysroot/usr/include/bits/mathinline.h \
  /opt/riscv/sysroot/usr/include/string.h \
  /opt/riscv/lib/gcc/riscv64-unknown-linux-gnu/7.2.0/include/stddef.h \
@@ -115,6 +117,8 @@ logmath.lo: logmath.c /opt/riscv/sysroot/usr/include/stdc-predef.h \
 
 /opt/riscv/sysroot/usr/include/bits/huge_val.h:
 
+/opt/riscv/sysroot/usr/include/bits/huge_val_flt128.h:
+
 /opt/riscv/sysroot/usr/include/bits/huge_valf.h:
 
 /opt/riscv/sysroot/usr/include/bits/huge_vall.h:
@@ -132,6 +136,8 @@ logmath.lo: logmath.c /opt/riscv/sysroot/usr/include/stdc-predef.h \
 /opt/riscv/sysroot/usr/include/bits/mathcalls-helper-functions.h:
 
 /opt/riscv/sysroot/usr/include/bits/mathcalls.h:
+
+/opt/riscv/sysroot/usr/include/bits/iscanonical.h:
 
 /opt/riscv/sysroot/usr/include/bits/mathinline.h:
 

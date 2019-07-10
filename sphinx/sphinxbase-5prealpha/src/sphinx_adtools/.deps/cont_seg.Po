@@ -57,6 +57,7 @@ cont_seg.o: cont_seg.c /opt/riscv/sysroot/usr/include/stdc-predef.h \
  /opt/riscv/sysroot/usr/include/bits/math-vector.h \
  /opt/riscv/sysroot/usr/include/bits/libm-simd-decl-stubs.h \
  /opt/riscv/sysroot/usr/include/bits/huge_val.h \
+ /opt/riscv/sysroot/usr/include/bits/huge_val_flt128.h \
  /opt/riscv/sysroot/usr/include/bits/huge_valf.h \
  /opt/riscv/sysroot/usr/include/bits/huge_vall.h \
  /opt/riscv/sysroot/usr/include/bits/inf.h \
@@ -66,6 +67,7 @@ cont_seg.o: cont_seg.c /opt/riscv/sysroot/usr/include/stdc-predef.h \
  /opt/riscv/sysroot/usr/include/bits/fp-fast.h \
  /opt/riscv/sysroot/usr/include/bits/mathcalls-helper-functions.h \
  /opt/riscv/sysroot/usr/include/bits/mathcalls.h \
+ /opt/riscv/sysroot/usr/include/bits/iscanonical.h \
  /opt/riscv/sysroot/usr/include/bits/mathinline.h \
  ../../include/sphinxbase/prim_type.h ../../include/sphinx_config.h \
  ../../include/sphinxbase/ad.h \
@@ -207,6 +209,8 @@ cont_seg.o: cont_seg.c /opt/riscv/sysroot/usr/include/stdc-predef.h \
 
 /opt/riscv/sysroot/usr/include/bits/huge_val.h:
 
+/opt/riscv/sysroot/usr/include/bits/huge_val_flt128.h:
+
 /opt/riscv/sysroot/usr/include/bits/huge_valf.h:
 
 /opt/riscv/sysroot/usr/include/bits/huge_vall.h:
@@ -224,6 +228,8 @@ cont_seg.o: cont_seg.c /opt/riscv/sysroot/usr/include/stdc-predef.h \
 /opt/riscv/sysroot/usr/include/bits/mathcalls-helper-functions.h:
 
 /opt/riscv/sysroot/usr/include/bits/mathcalls.h:
+
+/opt/riscv/sysroot/usr/include/bits/iscanonical.h:
 
 /opt/riscv/sysroot/usr/include/bits/mathinline.h:
 

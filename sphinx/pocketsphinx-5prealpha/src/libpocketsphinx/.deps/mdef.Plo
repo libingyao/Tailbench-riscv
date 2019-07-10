@@ -53,21 +53,21 @@ mdef.lo: mdef.c /opt/riscv/sysroot/usr/include/stdc-predef.h \
  /opt/riscv/sysroot/usr/include/bits/stdlib-bsearch.h \
  /opt/riscv/sysroot/usr/include/bits/stdlib-float.h \
  /opt/riscv/sysroot/usr/include/assert.h \
- /home/parallels/Documents/tailbench-v0.9/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/ckd_alloc.h \
+ /home/parallels/demo/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/ckd_alloc.h \
  /opt/riscv/sysroot/usr/include/setjmp.h \
  /opt/riscv/sysroot/usr/include/bits/setjmp.h \
- /home/parallels/Documents/tailbench-v0.9/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/sphinxbase_export.h \
- /home/parallels/Documents/tailbench-v0.9/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/prim_type.h \
- /home/parallels/Documents/tailbench-v0.9/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinx_config.h \
- /home/parallels/Documents/tailbench-v0.9/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/err.h \
+ /home/parallels/demo/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/sphinxbase_export.h \
+ /home/parallels/demo/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/prim_type.h \
+ /home/parallels/demo/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinx_config.h \
+ /home/parallels/demo/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/err.h \
  /opt/riscv/sysroot/usr/include/errno.h \
  /opt/riscv/sysroot/usr/include/bits/errno.h \
  /opt/riscv/sysroot/usr/include/linux/errno.h \
  /opt/riscv/sysroot/usr/include/asm/errno.h \
  /opt/riscv/sysroot/usr/include/asm-generic/errno.h \
  /opt/riscv/sysroot/usr/include/asm-generic/errno-base.h mdef.h \
- /home/parallels/Documents/tailbench-v0.9/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/hash_table.h \
- /home/parallels/Documents/tailbench-v0.9/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/glist.h
+ /home/parallels/demo/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/hash_table.h \
+ /home/parallels/demo/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/glist.h
 
 /opt/riscv/sysroot/usr/include/stdc-predef.h:
 
@@ -179,19 +179,19 @@ mdef.lo: mdef.c /opt/riscv/sysroot/usr/include/stdc-predef.h \
 
 /opt/riscv/sysroot/usr/include/assert.h:
 
-/home/parallels/Documents/tailbench-v0.9/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/ckd_alloc.h:
+/home/parallels/demo/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/ckd_alloc.h:
 
 /opt/riscv/sysroot/usr/include/setjmp.h:
 
 /opt/riscv/sysroot/usr/include/bits/setjmp.h:
 
-/home/parallels/Documents/tailbench-v0.9/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/sphinxbase_export.h:
+/home/parallels/demo/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/sphinxbase_export.h:
 
-/home/parallels/Documents/tailbench-v0.9/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/prim_type.h:
+/home/parallels/demo/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/prim_type.h:
 
-/home/parallels/Documents/tailbench-v0.9/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinx_config.h:
+/home/parallels/demo/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinx_config.h:
 
-/home/parallels/Documents/tailbench-v0.9/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/err.h:
+/home/parallels/demo/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/err.h:
 
 /opt/riscv/sysroot/usr/include/errno.h:
 
@@ -207,6 +207,6 @@ mdef.lo: mdef.c /opt/riscv/sysroot/usr/include/stdc-predef.h \
 
 mdef.h:
 
-/home/parallels/Documents/tailbench-v0.9/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/hash_table.h:
+/home/parallels/demo/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/hash_table.h:
 
-/home/parallels/Documents/tailbench-v0.9/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/glist.h:
+/home/parallels/demo/sphinx/pocketsphinx-5prealpha/../sphinxbase-5prealpha/include/sphinxbase/glist.h:

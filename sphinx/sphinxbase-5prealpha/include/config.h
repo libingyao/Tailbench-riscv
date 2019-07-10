@@ -35,7 +35,7 @@
 #define HAVE_LIBM 1
 
 /* Define to 1 if you have the `pthread' library (-lpthread). */
-/* #undef HAVE_LIBPTHREAD */
+#define HAVE_LIBPTHREAD 1
 
 /* Define to 1 if you have the `pulse' library (-lpulse). */
 /* #undef HAVE_LIBPULSE */

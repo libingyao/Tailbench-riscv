@@ -1,4 +1,4 @@
-prefix=/home/parallels/Documents/tailbench-v0.9/sphinx/sphinx-install
+prefix=/home/parallels/demo/sphinx/sphinx-install
 exec_prefix=${prefix}
 libdir=${exec_prefix}/lib
 includedir=${prefix}/include
@@ -11,6 +11,6 @@ Description: Lightweight speech recognition system
 Version: 5prealpha
 URL: http://cmusphinx.sourceforge.net/
 Requires: sphinxbase >= 5prealpha
-Libs: -L${libdir} -lpocketsphinx 
-Libs.private: ${libs} -lm 
+Libs: -L${libdir} -lpocketsphinx
+Libs.private: ${libs} -lm
 Cflags: -I${includedir} -I${includedir}/sphinxbase -I${includedir}/pocketsphinx

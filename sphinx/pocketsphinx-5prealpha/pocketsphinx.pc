@@ -1,4 +1,4 @@
-prefix=/home/parallels/Documents/tailbench-v0.9/sphinx/sphinx-install
+prefix=/home/parallels/demo/sphinx/sphinx-install
 exec_prefix=${prefix}
 libdir=${exec_prefix}/lib
 includedir=${prefix}/include
