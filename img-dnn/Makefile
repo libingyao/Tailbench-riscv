@@ -1,6 +1,6 @@
 CXX = riscv64-unknown-linux-gnu-g++
-CXXFLAGS += -I/opt/riscv/include  $(shell pkg-config --cflags opencv) 
-LDFLAGS = $(shell pkg-config --libs opencv) -L/usr/local/lib -L/opt/riscv/lib
+CXXFLAGS += -I/opt/riscv/include  -I/home/parallels/tools/include  $(shell pkg-config --cflags opencv)
+LDFLAGS = -L/home/parallels/tools/lib $(shell pkg-config --libs opencv) -lz -static
 
 TBENCH_PATH = ../harness
 TBENCH_SERVER_OBJ = $(TBENCH_PATH)/tbench_server_networked.o
