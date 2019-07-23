@@ -14,6 +14,8 @@ need openCV（compiled with riscv.toolchain.cmake）
 
 completed
 
+need libuuid and zlib (compiled with riscv)
+
 ## xapian
 
 completed
